@@ -6,6 +6,6 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<a href="https://app.daily.dev/umeshpatel09"><img src="https://api.daily.dev/devcards/v2/BmHu40swNNQ5PNgF2rktx.png?r=7hl&type=default" width="106" alt="Umesh Patel's Dev Card"/></a>
+<a href="https://app.daily.dev/umeshpatel09"><img src="https://api.daily.dev/devcards/v2/BmHu40swNNQ5PNgF2rktx.png?r=7hl&type=overlap" width="280" alt="Umesh Patel's Dev Card"/></a>
 ![Untitled (20)](https://github.com/user-attachments/assets/25fc89bf-ebc8-468d-94a2-e9e4a6efd62f)
 
