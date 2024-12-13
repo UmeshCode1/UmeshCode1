@@ -1,7 +1,8 @@
-![GitHub Banner Desktop Demo](https://github.com/UmeshCode1/UmeshCode1/blob/14b0985c5133931dd6154a0702ac297c8ccd4964/1729533147446.jpg)
+![GitHub Banner Desktop](https://github.com/UmeshCode1/UmeshCode1/blob/14b0985c5133931dd6154a0702ac297c8ccd4964/1729533147446.jpg)
 
-<h1 align="center">Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="32"> I'm Umesh Patel</h1>
-<h3 align="center">A Passionate AI & ML Enthusiast, Developer & Learner 🚀</h3>
+<h1 align="center">Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35"> I'm Umesh Patel</h1>
+<h3 align="center">A Passionate AI & ML Enthusiast, Developer & Learner🚀</h3>
+
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1025838/screenshots/6220885/devguy3.gif">
 
@@ -21,8 +22,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="blank"><img align="center" src="https://via.placeholder.com/150x40?text=LinkedIn+Profile" alt="LinkedIn" height="30" width="120" /></a>
-<a href="https://www.instagram.com/nycto_phile.i" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Umesh Patel" height="30" width="40" /></a>
+<a href="https://www.instagram.com/nycto_phile.i" target="blank"><img align="center" src="https://github.com/tandpfun/skill-icons/blob/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Instagram.svg" alt="Umesh Patel" height="30" width="40" /></a>
+</p>
 </p>
 
 <br/>
