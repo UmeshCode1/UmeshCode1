@@ -1,4 +1,4 @@
-![GitHub Banner Desktop Demo](./readme-images/GeekyPrashant-GitHub-Banner.png "Desktop Demo")
+![GitHub Banner Desktop Demo](https://github.com/UmeshCode1/UmeshCode1/blob/14b0985c5133931dd6154a0702ac297c8ccd4964/1729533147446.jpg)
 
 <h1 align="center">Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="32"> I'm Umesh Patel</h1>
 <h3 align="center">A Passionate AI & ML Enthusiast, Developer & Learner 🚀</h3>
@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **AI**, **ML**, **Google Cloud**, **Hackathons**, and **Tech Communities**.
 
-- 📫 Drop a mail at **umeshpatel09@gmail.com**
+- 📫 Drop a mail at **umesh.code1@gmail.com**
 
 - ⚡ Fun fact **I love working on new tech innovations and I am always looking to collaborate with like-minded people.**
 
