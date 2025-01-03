@@ -38,17 +38,10 @@
 ## 📊 My Github Stats
 
 <br/>
-<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Github Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/></a>
-<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=UmeshCode1&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"/></a>
 <br/>
-
-### 📈 Contributions
-<p align="center">
-    <a href="https://github.com/UmeshCode1/github-readme-activity-graph"><img alt="Umesh Patel's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=UmeshCode1&bg_color=0D1117&color=FFFFFF&line=00E676&point=FFFFFF&hide_border=true" /></a>
-</p>
 
 ## 🏆 GitHub Trophies
 ![trophy](https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=onedark)
 
-## 📈 GitHub Contribution Dashboard
-![GitHub Contribution Dashboard](https://github.com/UmeshCode1/github-readme-activity-graph/cyclic.app/graph?username=UmeshCode1&bg_color=0D1117&color=FFFFFF&line=00E676&point=FFFFFF&hide_border=true)
