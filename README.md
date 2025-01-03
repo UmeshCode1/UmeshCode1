@@ -22,7 +22,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Umesh Patel" height="30" width="40" /></a>
 <a href="https://www.instagram.com/nycto_phile.i" target="blank"><img align="center" src="https://github.com/tandpfun/skill-icons/blob/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Instagram.svg" alt="Umesh Patel" height="30" width="40" /></a>
-<a href="https://wa.me/qr/ML2ROCOWMQ3QJ1 " target="blank"><img align="center" src="https://camo.githubusercontent.com/2f5ba03aa79e983b821be90c245ae64cb4f70cff266cf7f80a276307d75c84ee/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f77686174736170702e737667" alt="Umesh Patel" height="30" width="40" /></a>
+<a href="https://wa.me/qr/ML2ROCOWMQ3QJ1 " target="blank"><img align="center" src="https://camo.githubusercontent.com/2f5ba03aa79e983b821be90c245ae64cb4f70cff266cf7f80a276307d75c84ee/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f77686174736170702e737667" alt="Umesh Patel" height="30" width="40"></a>
 </p>
 
 <br/>
@@ -37,12 +37,15 @@
 
 ## 📊 My Github Stats
 
-  <br/>
-    <a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Github Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=UmeshCode1&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <br/>
+<br/>
+<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Github Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/UmeshCode1/github-readme-stats"><img alt="Umesh Patel's Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=UmeshCode1&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"/></a>
+<br/>
+
 ### 📈 Contributions
 <p align="center">
     <a href="https://github.com/UmeshCode1/github-readme-activity-graph"><img alt="Umesh Patel's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=UmeshCode1&bg_color=0D1117&color=FFFFFF&line=00E676&point=FFFFFF&hide_border=true" /></a>
 </p>
-  
+
+## 🏆 GitHub Trophies
+![trophy](https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=onedark)
