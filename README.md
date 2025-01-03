@@ -1,9 +1,7 @@
 ![GitHub Banner Desktop](https://github.com/UmeshCode1/UmeshCode1/blob/14b0985c5133931dd6154a0702ac297c8ccd4964/1729533147446.jpg)
 
 <h1 align="center">Hi, <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35"> I'm Umesh Patel</h1>
-<h2 align="center">
-  <img src="https://your-repo-path/typing-effect.gif" alt="A Passionate AI & ML Enthusiast, Developer & Learner🚀">
-</h2>
+<h2 align="center">A Passionate AI & ML Enthusiast, Developer & Learner🚀</h2>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1025838/screenshots/6220885/devguy3.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=UmeshCode1&label=Profile%20views&color=0e75b6&style=flat" alt="UmeshCode1" /> </p>
