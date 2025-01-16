@@ -48,3 +48,11 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=onedark)
 
 ---
+
+### 🔆 Activity
+
+![Git Repository Activity](https://repobeats.axiom.co/api/embed/e4ef0fbd12e586ef9ea7d72d1fb4f5c5b88d78d5.svg "Repobeats analytics image")
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=UmeshCode1/UmeshCode1&type=Date)](https://star-history.com/#UmeshCode1/UmeshCode1&Date)
