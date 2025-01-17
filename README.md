@@ -4,11 +4,13 @@
 </div>
 
 <h1 align="center">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="30" width="100%">
   <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
-  Welcome to My Innovative Space
+  <!--Welcome to My Innovative Space -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3F00F7&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Umesh+Patel+%F0%9F%91%8B;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Full+Stack+Developer+%F0%9F%92%BB;Innovation+Seeker+%F0%9F%9A%80" alt="Typing SVG" />
+
   <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="30" width="100%">
 </h1>
 
 <!-- Typing SVG -->
@@ -66,15 +68,16 @@ me.say_hi()
     Currently Learning
 </h2>
 
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg" alt="keras" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40"/>
 </p>
 
 <!-- Current Activities -->
@@ -90,94 +93,43 @@ me.say_hi()
 - 💬 Ask me about **AI, ML, Cloud Computing, and Tech Innovation**
 - 📧 Reach me at **umesh.code1@gmail.com**
 - ⚡ Fun fact: **I turn chai into code and data into insights**
-<!-- GitHub Stats & Streaks -->
-<h2>
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-    GitHub Stats
-</h2>
 
-<p align="center">
-    <a href="https://github.com/UmeshCode1">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github"/>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=radical&cache_seconds=1800"/>
-    </a>
-</p>
+<!-- GitHub Stats Section with Animated Header -->
+<h3 align="center">
+    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=6AD3F7&width=435&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
+</h3>
 
-<!-- GitHub Streak Stats -->
-<p align="center">
-    <a href="https://github.com/UmeshCode1/github-readme-streak-stats">
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Umesh Patel's streak" src="https://streak-stats.demolab.com/?user=UmeshCode1&theme=radical&hide_border=true&stroke=0000&background=060A0CD0"/>
-    </a>
-</p>
+ <!-- GitHub Stats Cards in 2x2 Grid with Enhanced Styling --> <p align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10&custom_title=🌟 GitHub Statistics&hide_border=true"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&custom_title=💻 Top Technologies&hide_border=true"/> </p>
 
-<!-- GitHub Trophy -->
-<p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=radical&no-frame=true&row=1&&margin-w=20&no-bg=true" width="100%">
-</p>
+<!-- Enhanced Streak Stats with Custom Title --> <p align="center"> <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/> </p>
 
-<!-- Contribution Graph -->
-<p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=github-dark&hide_border=true&area=true" width="100%">
-</p>
+<!-- Trophies with Animated Header -->
+<h3 align="center">
+    <img src="https://media.giphy.com/media/3orifgYbnsW1TFeHhC/giphy.gif" width="30px" alt="Trophy"/>&nbsp;
+    GitHub Achievements
+</h3>
+ <p align="center"> <img width="90%" src="https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15&margin-h=15"/> </p>
+<!-- Activity Graph with Animated Stats -->
+<h3 align="center">
+    <img src="https://media.giphy.com/media/IcZhFmYPmGJjW/giphy.gif" width="30px" alt="Stats"/>&nbsp;
+    Contribution Activity
+</h3>
+<p align="center"> <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=tokyo-night&hide_border=true&area=true&custom_title=✨ My Contribution Graph"/> </p>
+<!-- Analytics with Animated Chart -->
+<h3 align="center">
+    <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
+    Detailed Analytics
+</h3>
+<p align="center"> <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/> <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/> </p>
+
+
+<!-- Profile Summary -->
+<p align="center"> <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight"/> </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
-<!-- Profile Summary Cards Section -->
-<!--
-<h2>
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-    Profile Summary Cards
-</h2>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/master/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile Summary Card showing detailed stats">
-</p>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/master/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="45%" alt="Graph showing repositories per programming language">
-    <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/master/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="45%" alt="Graph showing the most committed programming languages">
-</p>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/master/profile-summary-card-output/tokyonight/3-stats.svg" width="45%" alt="Graph showing overall GitHub stats">
-    <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/master/profile-summary-card-output/tokyonight/4-productive-time.svg" width="45%" alt="Graph showing productive time distribution">
-</p>
-
-<!-- Metrics Section -->
-<!--
-<h2>
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-  Activity Metrics
-</h2>
-
-<p align="center">
-  <img src="https://metrics.lecoq.io/UmeshCode1?template=terminal&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&notable=1&base.indepth=false&base.hireable=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&config.timezone=Asia%2FKolkata&config.animated=true" alt="Metrics" width="100%">
-</p>
-
-<!-- Snake Animation Section -->
-<!--
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
--->
-<!-- Contribution Details -->
-<h2>
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-  Contribution Details
-</h2>
-
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&card_width=500" alt="Top Contributed Repositories" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight" alt="Contribution Graph" width="100%" />
-</div>
 
 <!-- Connect With Me -->
 <h2>
