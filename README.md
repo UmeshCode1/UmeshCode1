@@ -118,7 +118,7 @@ me.say_hi()
 <p align="center"> <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=tokyo-night&hide_border=true&area=true&custom_title=✨ My Contribution Graph"/> </p>
 <!-- Analytics with Animated Chart -->
 <h3 align="center">
-    <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
+    <img src="https://media4.giphy.com/media/nqh2NNyuwGMhjUK17h/giphy.gif?cid=6c09b9521axub3oxfgo9yg26g9qv8lw6ad6ck9wduxr8inmb&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="30px" alt="Analytics"/>&nbsp;
     Detailed Analytics
 </h3>
 <p align="center"> <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/> <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/> </p>
