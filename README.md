@@ -92,6 +92,10 @@ me.say_hi()
 - 💬 Ask me about **AI, ML, Cloud Computing, and Tech Innovation**
 - 📧 Reach me at **umesh.code1@gmail.com**
 - ⚡ Fun fact: **I turn chai into code and data into insights**
+
+<!-- Animated Separator -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  
 <!-- GitHub Stats Section -->
 <!--<h2>
     <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
@@ -143,6 +147,10 @@ me.say_hi()
     <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=6AD3F7&width=435&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
 </h3>
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" /> 
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+</div>
 
  <!-- GitHub Stats Cards in 2x2 Grid with Enhanced Styling --> <p align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10&custom_title=🌟 GitHub Statistics&hide_border=true"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&custom_title=💻 Top Technologies&hide_border=true"/> </p>
 
@@ -160,7 +168,11 @@ me.say_hi()
     <img src="https://media.giphy.com/media/IcZhFmYPmGJjW/giphy.gif" width="30px" alt="Stats"/>&nbsp;
     Contribution Activity
 </h3>
-<p align="center"> <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=tokyo-night&hide_border=true&area=true&custom_title=✨ My Contribution Graph"/> </p>
+<p align="center"><img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=react-dark)](https://github.com/UmeshCode1/github-readme-activity-graph"/> </p>  </p>
+<!-- Activity Graph -->
+
+
+
 <!-- Analytics with Animated Chart -->
 <h3 align="center">
     <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
@@ -184,21 +196,21 @@ me.say_hi()
 </h2>
 
 <p align="center">
-        <a href="https://linkedin.com/in/umesh-patel-5647b42a4">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
-        </a>
-        <a href="mailto:umesh.code1@gmail.com">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google.svg" alt="Gmail" height="30" width="40"/>
-        </a>
-        <a href="https://www.instagram.com/nycto_phile.i">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"/>
-        </a>
-        <a href="https://wa.me/7974389476">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp" height="30" width="40"/>
-        </a>
-        <a href="https://github.com/UmeshCode1">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40"/>
-        </a>
+    <a href="https://linkedin.com/in/umesh-patel-5647b42a4">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
+    </a>
+    <a href="mailto:umesh.code1@gmail.com">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google.svg" alt="Gmail" height="30" width="40"/>
+    </a>
+    <a href="https://www.instagram.com/nycto_phile.i">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"/>
+    </a>
+    <a href="https://wa.me/7974389476">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp" height="30" width="40"/>
+    </a>
+    <a href="https://github.com/UmeshCode1">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40"/>
+    </a>
 </p>
 
 <div align="center">
