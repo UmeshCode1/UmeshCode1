@@ -2,7 +2,6 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Umesh%20Patel&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=white"/>
 </div>
-<<<<<<< HEAD
 <!-- Animated Greeting Header -->
 <h1 align="center">
     <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
@@ -13,19 +12,6 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 </h1>
 
-=======
-
-<h1 align="center">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="30" width="100%">
-  <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
-  <!--Welcome to My Innovative Space -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3F00F7&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Umesh+Patel+%F0%9F%91%8B;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Full+Stack+Developer+%F0%9F%92%BB;Innovation+Seeker+%F0%9F%9A%80" alt="Typing SVG" />
-
-  <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="30" width="100%">
-</h1>
-
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
 <!-- Typing SVG -->
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -75,20 +61,11 @@ me.say_hi()
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<<<<<<< HEAD
 <!-- Tech Stack Logos -->
 <h2>
     <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30">
      Currently Learning
 </h2>
-=======
-<!-- Tech Stack Section -->
-<h2>
-   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30">
-    Currently Learning
-</h2>
-
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
@@ -114,7 +91,6 @@ me.say_hi()
 - 💬 Ask me about **AI, ML, Cloud Computing, and Tech Innovation**
 - 📧 Reach me at **umesh.code1@gmail.com**
 - ⚡ Fun fact: **I turn chai into code and data into insights**
-<<<<<<< HEAD
 <!-- GitHub Stats Section -->
 <!--<h2>
     <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
@@ -161,9 +137,6 @@ me.say_hi()
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight" alt="Contribution Graph" width="100%" />
 </div>-->
 
-=======
-
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
 <!-- GitHub Stats Section with Animated Header -->
 <h3 align="center">
     <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
@@ -180,10 +153,7 @@ me.say_hi()
     GitHub Achievements
 </h3>
  <p align="center"> <img width="90%" src="https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15&margin-h=15"/> </p>
-<<<<<<< HEAD
 
-=======
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
 <!-- Activity Graph with Animated Stats -->
 <h3 align="center">
     <img src="https://media.giphy.com/media/IcZhFmYPmGJjW/giphy.gif" width="30px" alt="Stats"/>&nbsp;
@@ -192,11 +162,7 @@ me.say_hi()
 <p align="center"> <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=tokyo-night&hide_border=true&area=true&custom_title=✨ My Contribution Graph"/> </p>
 <!-- Analytics with Animated Chart -->
 <h3 align="center">
-<<<<<<< HEAD
     <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
-=======
-    <img src="https://media4.giphy.com/media/nqh2NNyuwGMhjUK17h/giphy.gif?cid=6c09b9521axub3oxfgo9yg26g9qv8lw6ad6ck9wduxr8inmb&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="30px" alt="Analytics"/>&nbsp;
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
     Detailed Analytics
 </h3>
 <p align="center"> <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/> <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/> </p>
@@ -209,7 +175,6 @@ me.say_hi()
 
 
 
-<<<<<<< HEAD
 
 <!-- Connect With Me -->
 <h2>
@@ -217,14 +182,6 @@ me.say_hi()
     Let's Connect!
 </h2>
 
-=======
-<!-- Connect With Me -->
-<h2>
-    <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
-    Let's Connect!
-</h2>
-
->>>>>>> da4217c5dc48326d4dbcd100eb672f188deb4590
 <p align="center">
         <a href="https://linkedin.com/in/umesh-patel-5647b42a4">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
