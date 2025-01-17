@@ -4,6 +4,7 @@
 </div>
 <!-- Animated Greeting Header -->
 <h1 align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
     <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
     <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3F00F7&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Umesh+Patel+%F0%9F%91%8B;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Full+Stack+Developer+%F0%9F%92%BB;Innovation+Seeker+%F0%9F%9A%80" alt="Typing SVG" />
