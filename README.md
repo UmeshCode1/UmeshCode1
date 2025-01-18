@@ -143,14 +143,15 @@ me.say_hi()
     <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=6AD3F7&width=435&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
 </h3>
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" /> 
+<!-- <div align="center"><img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" /> 
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
-</div>
+</div> -->
 
- <!-- GitHub Stats Cards in 2x2 Grid with Enhanced Styling --> <p align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10&custom_title=🌟 GitHub Statistics&hide_border=true"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&custom_title=💻 Top Technologies&hide_border=true"/> </p>
+ <!-- GitHub Stats Cards in 2x2 Grid with Enhanced Styling --> 
+ <p align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10&custom_title=🌟 GitHub Statistics&hide_border=true"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&custom_title=💻 Top Technologies&hide_border=true"/> </p>
 
-<!-- Enhanced Streak Stats with Custom Title --> <p align="center"> <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/> </p>
+<!-- Enhanced Streak Stats with Custom Title --> 
+<p align="center"> <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/> </p>
 
 <!-- Trophies with Animated Header -->
 <h3 align="center">
