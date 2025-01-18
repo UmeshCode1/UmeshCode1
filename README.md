@@ -92,7 +92,6 @@ me.say_hi()
 - 💬 Ask me about **AI, ML, Cloud Computing, and Tech Innovation**
 - 📧 Reach me at **umesh.code1@gmail.com**
 - ⚡ Fun fact: **I turn chai into code and data into insights**
-<<<<<<< HEAD
 <!-- GitHub Stats Section -->
 <!--<h2>
     <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
