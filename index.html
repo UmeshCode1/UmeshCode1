@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh Patel</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #111827;
+            color: #f3f4f6;
+            font-family: system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Custom cursor */
+        .cursor {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            mix-blend-mode: difference;
+            z-index: 9999;
+            transition: transform 0.3s ease;
+        }
+
+        /* Matrix background */
+        .matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        .matrix-character {
+            position: absolute;
+            color: #22c55e;
+            font-size: 1.2rem;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100vh); }
+        }
+
+        /* Header styles */
+        header {
+            background: linear-gradient(to right, #1e3a8a, #581c87);
+            padding: 5rem 1rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            border: 4px solid #3b82f6;
+            margin: 0 auto 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+
+        .name {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .title {
+            font-size: 1.25rem;
+            font-family: monospace;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Social links */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .social-link {
+            color: #60a5fa;
+            transition: transform 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #93c5fd;
+            transform: scale(1.25);
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1f2937;
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            border-bottom: 1px solid #374151;
+        }
+
+        .nav-links {
+            max-width: 64rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-link {
+            padding: 1rem 0.5rem;
+            color: #9ca3af;
+            text-transform: capitalize;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link.active {
+            color: #60a5fa;
+            border-bottom: 2px solid #60a5fa;
+        }
+
+        /* Section styles */
+        main {
+            max-width: 64rem;
+            margin: 0 auto;
+            padding: 3rem 1rem;
+        }
+
+        section {
+            opacity: 0;
+            display: none;
+            transition: opacity 0.5s ease;
+        }
+
+        section.active {
+            opacity: 1;
+            display: block;
+        }
+
+        .card {
+            background-color: #1f2937;
+            border-radius: 0.5rem;
+            border: 1px solid #374151;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Skills progress bars */
+        .skill-bar {
+            height: 8px;
+            background-color: #374151;
+            border-radius: 9999px;
+            overflow: hidden;
+            margin: 0.5rem 0 1rem;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background-color: #60a5fa;
+            border-radius: 9999px;
+            transition: width 1s ease;
+        }
+
+        /* Projects grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: #9ca3af;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="matrix-bg"></div>
+
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Umesh Patel" class="profile-img">
+        <h1 class="name"></h1>
+        <p class="title"></p>
+        <div class="social-links">
+            <a href="https://github.com/UmeshCode1" class="social-link"><i class='bx bxl-github'></i></a>
+            <a href="https://linkedin.com/in/umesh-patel-5647b42a4" class="social-link"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:umesh.code1@gmail.com" class="social-link"><i class='bx bx-mail-send'></i></a>
+            <a href="https://www.instagram.com/nycto_phile.i" class="social-link"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><button class="nav-link active" data-section="about">About</button></li>
+            <li><button class="nav-link" data-section="skills">Skills</button></li>
+            <li><button class="nav-link" data-section="projects">Projects</button></li>
+            <li><button class="nav-link" data-section="contact">Contact</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sections content here -->
+        <!-- About section -->
+        <section id="about" class="active">
+            <div class="card">
+                <h2><i class='bx bx-terminal'></i> About Me</h2>
+                <div style="font-family: monospace; margin-top: 1rem;">
+                    <p style="color: #60a5fa">const aboutMe = {</p>
+                    <p style="margin-left: 1rem">role: "AI Researcher & ML Engineer",</p>
+                    <p style="margin-left: 1rem">location: "Bhopal, India",</p>
+                    <p style="margin-left: 1rem">interests: ["AI", "Machine Learning", "Innovation"],</p>
+                    <p style="margin-left: 1rem">goals: "Creating intelligent systems that matter"</p>
+                    <p>}</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other sections similarly -->
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Umesh Patel. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Cursor animation
+        document.addEventListener('mousemove', (e) => {
+            const cursor = document.querySelector('.cursor');
+            cursor.style.left = e.clientX - 16 + 'px';
+            cursor.style.top = e.clientY - 16 + 'px';
+        });
+
+        // Matrix background
+        function createMatrix() {
+            const matrixBg = document.querySelector('.matrix-bg');
+            for (let i = 0; i < 50; i++) {
+                const char = document.createElement('div');
+                char.className = 'matrix-character';
+                char.style.left = `${Math.random() * 100}%`;
+                char.style.animationDuration = `${5 + Math.random() * 10}s`;
+                char.textContent = String.fromCharCode(33 + Math.floor(Math.random() * 93));
+                matrixBg.appendChild(char);
+            }
+        }
+        createMatrix();
+
+        // TypeWriter effect
+        function typeWriter(element, text, speed = 100) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        // Initialize typewriter effects
+        window.addEventListener('load', () => {
+            typeWriter(document.querySelector('.name'), 'Umesh Patel');
+            setTimeout(() => {
+                typeWriter(document.querySelector('.title'), 'AI Researcher | ML Engineer | Tech Innovator');
+            }, 1500);
+        });
+
+        // Navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                e.target.classList.add('active');
+                
+                document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+                document.getElementById(e.target.dataset.section).classList.add('active');
+            });
+        });
+
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
