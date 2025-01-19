@@ -200,9 +200,6 @@ me.say_hi()
 
 
 
-![GitHub Snake Light](https://github.com/UmeshCode1/UmeshCode1/raw/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-![GitHub Snake dark](https://github.com/UmeshCode1/UmeshCode1/raw/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
 
 
 <!-- Connect With Me -->
