@@ -1,6 +1,12 @@
 <!-- Matrix Rain Effect Header -->
 <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&section=header&text=Umesh%20Patel&fontSize=90&fontColor=00ff9d&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20|%20ML%20Learner%20|%20Tech%20Innovator&descSize=25&descAlignY=60&stroke=00d5ff&strokeWidth=2"/>
+    <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&section=header&text=Umesh%20Patel&fontSize=90&fontColor=00ff9d&animation=twinkling&fontAlignY=35&desc=AI%20Engineering%20Student|%20ML%20Learner%20|%20Tech%20Innovator&descSize=25&descAlignY=60&stroke=00d5ff&strokeWidth=2"/>
+</div>
+
+<div align="center">
+   <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=35&duration=3000&pause=1000&color=00FFB2&center=true&vCenter=true&repeat=false&width=750&height=75&lines=Welcome+to+My+Tech+Universe+🌌" />
+   </a>
 </div>
 
 <!-- Animated Banner -->
