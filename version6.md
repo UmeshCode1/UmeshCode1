@@ -13,7 +13,7 @@
       <div style="background: #0d1117;
                   border-radius: 7px;
                   padding: 20px;">
-         <img src="your-profile-image.jpg" width="150px" style="border-radius: 50%;
+         <img src="https://media.licdn.com/dms/image/v2/D4D03AQGyZvHlNtO_gw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705225558942?e=1743033600&v=beta&t=HVd2GjWLfrGr3SKiE8cIn0sTMi12223TvbkjZjqIf4Q" width="150px" style="border-radius: 50%;
                                                                border: 3px solid #00ff99;
                                                                box-shadow: 0 0 15px #00ff99;">
          <h2 style="color: #00ff99;">Umesh Patel</h2>
