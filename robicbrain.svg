@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot Head -->
+  <rect x="100" y="100" width="200" height="200" rx="20" fill="none" stroke="#00d5ff" stroke-width="4">
+    <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Robot Eyes -->
+  <circle cx="160" cy="180" r="15" fill="#00ff9d">
+    <animate attributeName="r" values="15;20;15" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="240" cy="180" r="15" fill="#00ff9d">
+    <animate attributeName="r" values="15;20;15" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Brain Circuits -->
+  <path d="M140,220 Q200,280 260,220" fill="none" stroke="#0029ff" stroke-width="3">
+    <animate attributeName="d" values="M140,220 Q200,280 260,220;M140,230 Q200,270 260,230;M140,220 Q200,280 260,220" dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>
