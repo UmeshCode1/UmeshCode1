@@ -1,6 +1,6 @@
 <!-- Matrix Rain Effect Header -->
 <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&section=header&text=Umesh%20Patel&fontSize=90&fontColor=00ff9d&animation=twinkling&fontAlignY=35&desc=AI%20Engineering%20Student|%20ML%20Learner%20|%20Tech%20Innovator&descSize=25&descAlignY=60&stroke=00d5ff&strokeWidth=2"/>
+    <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&section=header&text=Umesh%20Patel&fontSize=90&fontColor=00ff9d&animation=twinkling&fontAlignY=35&desc=AI%20Engineering%20Student%20|%20ML%20Learner%20|%20Tech%20Innovator&descSize=25&descAlignY=60&stroke=00d5ff&strokeWidth=2"/>
 </div>
 
 <div align="center">
