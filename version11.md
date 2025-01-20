@@ -36,7 +36,7 @@
 
 <!-- Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=umeshpatel2001&bg_color=0D1117&color=00ff9d&line=00ff9d&point=FFFFFF&hide_border=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=umeshcode1&bg_color=0D1117&color=00ff9d&line=00ff9d&point=FFFFFF&hide_border=true" width="100%" />
 </p>
 
 <!-- Connect Section -->
@@ -55,7 +55,7 @@
 
 <!-- Profile Views Counter -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=umeshpatel2001&style=flat-square&color=00ff9d" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=umeshcode1&style=flat-square&color=00ff9d" alt="Profile views" />
 </p>
 
 <!-- Footer Wave -->
@@ -77,5 +77,5 @@
 
 <!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/umeshcode1/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
