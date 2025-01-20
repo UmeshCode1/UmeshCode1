@@ -22,10 +22,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
             dist/github-contribution-grid-snake.gif
-          type: regular
-          colors: |
-            color_snake: '#36BCF7'
-            color_dots: '#2AAA8A,#2D3742,#DE3163,#4C8EDA,#9C27B0'
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         if: success()
