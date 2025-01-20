@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .header-container {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: linear-gradient(135deg, #000428, #004e92);
+      overflow: hidden;
+    }
+
+    .matrix-rain {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .title-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 1rem;
+    }
+
+    .main-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 700;
+      color: #00ff9d;
+      text-shadow: 0 0 10px rgba(0, 255, 157, 0.5),
+                   0 0 20px rgba(0, 255, 157, 0.3);
+      margin: 0;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-family: 'Arial', sans-serif;
+      font-size: clamp(1rem, 2vw, 1.5rem);
+      color: #ffffff;
+      margin-top: 1rem;
+      text-align: center;
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+    .welcome-text {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.5rem, 3vw, 2.5rem);
+      color: #00FFB2;
+      text-align: center;
+      margin-top: 2rem;
+      text-shadow: 0 0 10px rgba(0, 255, 178, 0.5);
+    }
+
+    @media (prefers-color-scheme: light) {
+      .header-container {
+        background: linear-gradient(135deg, #e0e0e0, #ffffff);
+      }
+
+      .main-title {
+        color: #006d43;
+        text-shadow: 0 0 10px rgba(0, 109, 67, 0.3);
+      }
+
+      .subtitle {
+        color: #000000;
+        text-shadow: none;
+      }
+
+      .welcome-text {
+        color: #006d43;
+        text-shadow: 0 0 10px rgba(0, 109, 67, 0.3);
+      }
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/orbitron/9.0.0/orbitron.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header-container" role="banner">
+    <canvas class="matrix-rain" id="matrixCanvas"></canvas>
+    <div class="title-content">
+      <h1 class="main-title">Umesh Patel</h1>
+      <p class="subtitle">AI Engineering Student | ML Learner | Tech Innovator</p>
+      <p class="welcome-text">Welcome to My Tech Universe 🌌</p>
+    </div>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('matrixCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set canvas size
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement.offsetWidth;
+      canvas.height = canvas.parentElement.offsetHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    // Matrix rain effect
+    const chars = '0123456789ABCDEF'.split('');
+    const drops = [];
+    const fontSize = 16;
+    const columns = canvas.width / fontSize;
+
+    for (let i = 0; i < columns; i++) {
+      drops[i] = Math.random() * canvas.height;
+    }
+
+    function isDarkMode() {
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    function draw() {
+      ctx.fillStyle = isDarkMode() ? 'rgba(0, 0, 0, 0.05)' : 'rgba(255, 255, 255, 0.05)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = isDarkMode() ? '#00ff9d' : '#006d43';
+      ctx.font = fontSize + 'px monospace';
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    }
+
+    setInterval(draw, 35);
+
+    // Listen for color scheme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      resizeCanvas();
+    });
+  </script>
+</body>
+</html>
