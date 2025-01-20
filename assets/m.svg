@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="neuron-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00fff2"/>
+            <stop offset="100%" style="stop-color:#0066ff"/>
+            <animate attributeName="x1" values="0%;100%;0%" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="x2" values="100%;0%;100%" dur="3s" repeatCount="indefinite"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Neurons -->
+    <g stroke="url(#neuron-gradient)" fill="none">
+        <circle cx="50" cy="75" r="10">
+            <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="150" cy="45" r="10">
+            <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+        </circle>
+        <circle cx="150" cy="105" r="10">
+            <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+        </circle>
+        <circle cx="250" cy="75" r="10">
+            <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+        </circle>
+    </g>
+    
+    <!-- Connections -->
+    <g stroke="url(#neuron-gradient)" stroke-width="2">
+        <line x1="60" y1="75" x2="140" y2="45">
+            <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="60" y1="75" x2="140" y2="105">
+            <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+        </line>
+        <line x1="160" y1="45" x2="240" y2="75">
+            <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+        </line>
+        <line x1="160" y1="105" x2="240" y2="75">
+            <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+        </line>
+    </g>
+</svg>
