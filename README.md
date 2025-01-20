@@ -256,6 +256,17 @@ me.say_hi()
     </a>
 </p> -->
 <!-- Snake Animation -->
-<div align="center">
+<!--<div align="center">
   <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg" alt="snake"/>
+</div>-->
+
+
+<div align="center">
+  <!-- Light Mode -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
+    <!-- Dark Mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake-dark.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
