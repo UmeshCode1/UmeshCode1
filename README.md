@@ -255,3 +255,7 @@ me.say_hi()
         <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
     </a>
 </p> -->
+<!-- Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg" alt="snake"/>
+</div>
