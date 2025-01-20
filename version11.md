@@ -75,7 +75,12 @@
   </p>
 </details>
 
-<!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/umeshcode1/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <!-- Light Mode -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
+    <!-- Dark Mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake-dark.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
