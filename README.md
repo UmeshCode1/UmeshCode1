@@ -151,7 +151,7 @@ me.say_hi()
 </p>
 
 <!-- GitHub Streak Stats -->
-<p align="center">
+<!--<p align="center">
     <a href="https://github.com/UmeshCode1/github-readme-streak-stats">
         <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Umesh Patel's streak" src="https://streak-stats.demolab.com/?user=UmeshCode1&theme=radical&hide_border=true&stroke=0000&background=060A0CD0"/>
     </a>
