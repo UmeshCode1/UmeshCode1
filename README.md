@@ -128,9 +128,13 @@ me.say_hi()
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- GitHub Stats Section with Animated Header -->
-<h3 align="center">
-    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=6AD3F7&width=435&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
+<h3 align="center">    
+
+<img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
+       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=6AD3F7&width=435&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
+
+      
+
 </h3>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -143,12 +147,14 @@ me.say_hi()
  <!-- GitHub Stats Cards in 2x2 Grid with Enhanced Styling --> 
  <!-- <p align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10&custom_title=🌟 GitHub Statistics&hide_border=true"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&custom_title=💻 Top Technologies&hide_border=true"/> </p> -->
 
-<p align="center">
+<!--<p align="center">
     <a href="https://github.com/UmeshCode1">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github"/>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=radical&cache_seconds=1800"/>
-    </a>
-</p>
+             <img height="180em" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github"/>
+              <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=radical&cache_seconds=1800"/>
+        
+        
+</a>
+</p> -->
 
 <!-- GitHub Streak Stats -->
 <!--<p align="center">
@@ -158,8 +164,28 @@ me.say_hi()
 </p>
 
 <!-- Enhanced Streak Stats with Custom Title --> 
-<p align="center"> <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/> </p>
+<!--<p align="center"> <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/> </p> -->
 
+
+<!-- GitHub Stats Section -->
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/UmeshCode1">
+        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/UmeshCode1">
+        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&theme=radical&cache_seconds=1800"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
+</p>
 
 
 
@@ -200,15 +226,40 @@ me.say_hi()
 
 
 <!-- Analytics with Animated Chart -->
+<!--<h3 align="center">
+    <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
+    Detailed Analytics
+</h3>
+<p align="center"> <img width="49%" height="200" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/> <img width="49%"  height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/> </p> -->
+
+
+<!-- Profile Summary -->
+<!--<p align="center"> <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight"/> </p> -->
+
+
+
+<!-- Analytics with Animated Chart -->
 <h3 align="center">
     <img src="https://media.giphy.com/media/JWuBH9rCO2uZuHBFpm/giphy.gif" width="30px" alt="Analytics"/>&nbsp;
     Detailed Analytics
 </h3>
-<p align="center"> <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/> <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/> </p>
 
+<table align="center">
+  <tr>
+    <td>
+      <img width="100%" height="200" src="https://github-contributor-stats.vercel.app/api?username=UmeshCode1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/>
+    </td>
+    <td>
+      <img width="100%" height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UmeshCode1&theme=tokyonight"/>
+    </td>
+  </tr>
+</table>
 
 <!-- Profile Summary -->
-<p align="center"> <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight"/> </p>
+<p align="center">
+  <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UmeshCode1&theme=tokyonight"/>
+</p>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
