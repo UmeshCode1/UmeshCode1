@@ -10,6 +10,7 @@
 </div>
 
 <!-- Animated Banner -->
+
 <!-- <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Umesh%20Patel&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=white"/>
 </div>
