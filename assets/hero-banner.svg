@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="neon-cyan-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe">
+        <animate attributeName="stop-color" values="#00f2fe;#00ff9d;#4facfe;#00f2fe" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ff9d">
+        <animate attributeName="stop-color" values="#00ff9d;#4facfe;#00f2fe;#00ff9d" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d5ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7928ca" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="grid-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="beacon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff9d" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="15" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="cyber-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#162032" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.97); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -1000; }
+      }
+      @keyframes rotateHUD {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .hud-ring {
+        transform-origin: 760px 125px;
+        animation: rotateHUD 20s linear infinite;
+      }
+      .hud-ring-rev {
+        transform-origin: 760px 125px;
+        animation: rotateHUD 14s linear infinite reverse;
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+      .floating {
+        animation: float 4s ease-in-out infinite;
+      }
+      .flowing-line {
+        stroke-dasharray: 8, 12;
+        animation: dash 12s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="2" y="2" width="876" height="246" rx="16" fill="#090d16" stroke="url(#card-border)" stroke-width="1.8"/>
+  <rect x="2" y="2" width="876" height="246" rx="16" fill="url(#cyber-grid)"/>
+  <rect x="2" y="2" width="876" height="110" rx="16" fill="url(#grid-glow)"/>
+
+  <!-- Left Cyber Deco Brackets -->
+  <path d="M 20 50 L 20 22 L 50 22" fill="none" stroke="#00d5ff" stroke-width="2.5" opacity="0.8"/>
+  <path d="M 20 200 L 20 228 L 50 228" fill="none" stroke="#00d5ff" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- Right Decorative Radar/HUD -->
+  <g class="hud-ring">
+    <circle cx="760" cy="125" r="75" fill="none" stroke="#162b42" stroke-width="1.5" stroke-dasharray="8,6"/>
+    <circle cx="760" cy="125" r="60" fill="none" stroke="#00d5ff" stroke-width="1" stroke-dasharray="30, 20, 10, 15" opacity="0.5"/>
+    <circle cx="760" cy="125" r="45" fill="none" stroke="#00ff9d" stroke-width="1.5" stroke-dasharray="15, 10" opacity="0.7"/>
+  </g>
+  <g class="hud-ring-rev">
+    <circle cx="760" cy="125" r="30" fill="none" stroke="#7928ca" stroke-width="1.5" stroke-dasharray="20, 15" opacity="0.6"/>
+  </g>
+  <circle cx="760" cy="125" r="6" fill="#00ff9d" filter="url(#neon-glow)">
+    <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- HUD crosshairs -->
+  <line x1="760" y1="40" x2="760" y2="210" stroke="#00d5ff" stroke-width="1" stroke-dasharray="3, 5" opacity="0.25"/>
+  <line x1="675" y1="125" x2="845" y2="125" stroke="#00d5ff" stroke-width="1" stroke-dasharray="3, 5" opacity="0.25"/>
+
+  <!-- Animated Neural Bus Lines -->
+  <path d="M 450 70 Q 560 50 690 100" fill="none" stroke="#00d5ff" stroke-width="1.5" class="flowing-line" opacity="0.6"/>
+  <path d="M 460 180 Q 580 200 690 150" fill="none" stroke="#00ff9d" stroke-width="1.5" class="flowing-line" opacity="0.6"/>
+
+  <!-- Terminal Top Row -->
+  <g transform="translate(48, 42)">
+    <rect x="0" y="0" width="10" height="10" rx="5" fill="#ff5f56"/>
+    <rect x="18" y="0" width="10" height="10" rx="5" fill="#ffbd2e"/>
+    <rect x="36" y="0" width="10" height="10" rx="5" fill="#27c93f"/>
+    <text x="58" y="9" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#64748b" letter-spacing="1">
+      SYS_CORE // UMESH-AI-WORKSPACE v2.6.4
+    </text>
+  </g>
+
+  <!-- Title / Name -->
+  <g transform="translate(48, 110)">
+    <text x="0" y="0" font-family="'Orbitron', 'Inter', 'Segoe UI', system-ui, sans-serif" font-weight="900" font-size="46" fill="url(#neon-cyan-green)" filter="url(#neon-glow)" letter-spacing="2">
+      UMESH PATEL
+    </text>
+  </g>
+
+  <!-- Subtitle / Tagline -->
+  <g transform="translate(50, 142)">
+    <text x="0" y="0" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
+      AI &amp; Machine Learning Engineer <tspan fill="#00d5ff">|</tspan> Autonomous Systems <tspan fill="#00d5ff">|</tspan> Open Source Contributor
+    </text>
+  </g>
+
+  <!-- Terminal Command & Status Bar -->
+  <g transform="translate(50, 182)">
+    <!-- Terminal Command Capsule -->
+    <rect x="0" y="0" width="370" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="22" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#38bdf8">
+      $ <tspan fill="#e2e8f0">model.train(</tspan><tspan fill="#00ff9d">domain="AI/ML"</tspan><tspan fill="#e2e8f0">)</tspan><tspan class="cursor" fill="#00ff9d"> _</tspan>
+    </text>
+
+    <!-- Status Beacon Capsule -->
+    <g transform="translate(385, 0)">
+      <rect x="0" y="0" width="220" height="34" rx="8" fill="#0f172a" stroke="#00ff9d" stroke-width="1" opacity="0.85"/>
+      <circle cx="18" cy="17" r="5" fill="#00ff9d">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="18" cy="17" r="10" fill="url(#beacon-glow)">
+        <animate attributeName="r" values="6;12;6" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="21" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" font-weight="700" fill="#00ff9d" letter-spacing="1">
+        STATUS: INVENTING
+      </text>
+    </g>
+  </g>
+</svg>

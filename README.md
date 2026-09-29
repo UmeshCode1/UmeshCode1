@@ -1,15 +1,15 @@
-<!-- Matrix Rain Effect Header -->
+<!-- ==================== HERO SECTION ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=280&color=gradient&customColorList=0,2,2,5,30&section=header&text=Umesh%20Patel&fontSize=85&fontColor=00ff9d&animation=twinkling&fontAlignY=35&desc=AI%20Engineering%20Student%20|%20ML%20Learner%20|%20Tech%20Innovator&descSize=22&descAlignY=60&stroke=00d5ff&strokeWidth=2" width="100%"/>
+  <img src="assets/hero-banner.svg" alt="Umesh Patel - AI Systems Engineer" width="100%"/>
 </div>
 
 <div align="center">
   <a href="https://github.com/UmeshCode1">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00FFB2&center=true&vCenter=true&width=800&height=70&lines=Welcome+to+My+Tech+Universe+🌌;AI+%26+Deep+Learning+Enthusiast+🤖;Open+Source+Contributor+%40GitHub+%40Microsoft+🚀;Full+Stack+%26+Agentic+Systems+💻;Turning+Chai+Into+Code+☕" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=2800&pause=1000&color=00FFB2&center=true&vCenter=true&width=850&height=65&lines=Welcome+to+My+Tech+Universe+🌌;AI+%26+Deep+Learning+Enthusiast+🤖;Open+Source+Contributor+%40GitHub+%40Microsoft+🚀;Architecting+Autonomous+Agentic+Systems+⚡;Turning+Chai+Into+Code+☕" alt="Typing SVG" />
   </a>
 </div>
 
-<!-- Profile Views & Social Badges -->
+<!-- ==================== PROFILE TELEMETRY BADGES ==================== -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=00ff9d&label=Profile+Views" alt="Profile Views" />
   &nbsp;
@@ -28,21 +28,47 @@
 
 <br />
 
-<!-- Open Source Highlights -->
+<!-- ==================== ANIMATED DIVIDER ==================== -->
 <div align="center">
-  <a href="https://github.com/github/docs/pull/46118"><img src="https://img.shields.io/badge/GitHub-Docs%20Contributor-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
-  <a href="https://github.com/microsoft/api-guidelines/pull/596"><img src="https://img.shields.io/badge/Microsoft-API%20Guidelines-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/></a>&nbsp;
-  <a href="https://github.com/googleapis/mcp-toolbox/issues/4084"><img src="https://img.shields.io/badge/Google-MCP%20Toolbox-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>&nbsp;
-  <a href="https://github.com/OpenMind/OM1/pull/2694"><img src="https://img.shields.io/badge/OpenMind-OM1%20HAL%20(Merged)-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/></a>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
 </div>
 
 <br />
 
+<!-- ==================== BENTO GRID ARCHITECTURE & RESEARCH ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
+  <img src="assets/bento-architecture.svg" alt="Bento Architecture" width="100%"/>
 </div>
 
-<!-- About Me Section -->
+<br />
+
+<!-- ==================== OPEN SOURCE LEADERSHIP ==================== -->
+<div align="center">
+  <a href="https://github.com/github/docs/pull/46118" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Docs%20Contributor%20(%2346118)-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/microsoft/api-guidelines/pull/596" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft-API%20Guidelines%20(%23596)-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/googleapis/mcp-toolbox/issues/4084" target="_blank">
+    <img src="https://img.shields.io/badge/Google-MCP%20Toolbox%20(%234084)-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/OpenMind/OM1/pull/2694" target="_blank">
+    <img src="https://img.shields.io/badge/OpenMind-OM1%20HAL%20(Merged)-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/>
+  </a>
+</div>
+
+<br />
+
+<!-- ==================== ANIMATED DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<!-- ==================== ABOUT ME ==================== -->
 <h2>
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
   <b>About Me </b>
@@ -53,11 +79,11 @@
 class UmeshPatel:
     def __init__(self):
         self.name = "Umesh Patel"
-        self.role = "AI & ML Developer"
+        self.role = "AI & ML Systems Engineer"
         self.college = "Oriental College of Technology, Bhopal"
         self.location = "India"
-        self.languages = ["Python", "JavaScript", "SQL"]
-        self.interests = ["AI", "ML", "Deep Learning", "Cloud Computing"]
+        self.languages = ["Python", "JavaScript", "SQL", "C++"]
+        self.core_focus = ["Deep Learning", "Computer Vision", "Agentic Systems (MCP)", "Cloud Systems"]
     
     def say_hi(self):
         print("Thanks for dropping by! Let's build something amazing together!")
@@ -66,23 +92,29 @@ me = UmeshPatel()
 me.say_hi()
 ```
 
-<!-- What I'm Up To -->
+<!-- ==================== WHAT I'M UP TO ==================== -->
 <h2>
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-  What I'm up to
+  What I'm Up To
 </h2>
 
-- 🔬 Currently working on **Advanced AI & ML Models**
-- 🌱 Learning **Deep Learning & Neural Networks**
-- 👯 Looking to collaborate on **Innovative AI Projects**
-- 💬 Ask me about **AI, ML, Cloud Computing, and Tech Innovation**
+- 🔬 Benchmarking **Deep Learning & Computer Vision Invariance** under partial synthetic occlusions
+- ⚡ Architecting **Model Context Protocol (MCP)** tools and autonomous agent environments
+- 🌐 Actively contributing to top-tier open-source foundations (**@github**, **@microsoft**, **@googleapis**)
+- 👯 Looking to collaborate on **Cutting-Edge Multimodal & Embodied AI**
+- 💬 Ask me about **AI, ML, Cloud Infrastructure, and Agentic Architectures**
 - 📧 Reach me at **umesh.code1@gmail.com**
-- ⚡ Fun fact: **I turn chai into code and data into insights**
+- ☕ Fun fact: **I turn chai into code and data into insights**
 
-<!-- Tech Stack -->
+<!-- ==================== ANIMATED DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<!-- ==================== TECH STACK & TOOLING ==================== -->
 <h2>
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30">
-  Tech Stack & Tooling
+  Tech Stack &amp; Tooling
 </h2>
 
 <div align="center">
@@ -93,14 +125,15 @@ me.say_hi()
 
 <br />
 
+<!-- ==================== ANIMATED DIVIDER ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
 </div>
 
-<!-- GitHub Stats Section -->
+<!-- ==================== GITHUB TELEMETRY ==================== -->
 <h3 align="center">
   <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&width=400&lines=My+GitHub+Journey+✨" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&width=400&lines=GitHub+Telemetry+✨" alt="Typing SVG"/>
 </h3>
 
 <table align="center" border="0">
@@ -122,37 +155,36 @@ me.say_hi()
   <img width="85%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
 </p>
 
-<!-- Dynamic Quote -->
+<!-- Dynamic Quote Card -->
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
 </div>
 
 <br />
 
-<!-- Trophies -->
+<!-- ==================== ACHIEVEMENTS & CONTRIBUTIONS ==================== -->
 <h3 align="center">
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px" alt="Trophy"/>&nbsp;
-  GitHub Achievements
+  GitHub Achievements &amp; Trophies
 </h3>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=UmeshCode1&theme=radical&no-frame=true&row=1&margin-w=20&no-bg=true" width="100%">
 </p>
 
-<!-- Contribution Activity -->
 <h3 align="center">
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px" alt="Stats"/>&nbsp;
-  Contribution Activity
+  Activity Overview
 </h3>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&theme=github-dark&hide_border=true&area=true" width="100%">
 </p>
 
-<!-- GitHub Snake Contribution -->
+<!-- ==================== GITHUB CONTRIBUTION SNAKE ==================== -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px" height="24px">
-  GitHub Contribution Snake
+  GitHub Contribution Grid Snake
 </h2>
 
 <div align="center">
@@ -165,11 +197,12 @@ me.say_hi()
 
 <br />
 
+<!-- ==================== ANIMATED DIVIDER ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
 </div>
 
-<!-- Connect With Me -->
+<!-- ==================== CONNECT WITH ME ==================== -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
   Let's Connect!
@@ -199,7 +232,7 @@ me.say_hi()
 
 <br />
 
-<!-- Footer -->
+<!-- ==================== FOOTER ==================== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%"/>
 </div>

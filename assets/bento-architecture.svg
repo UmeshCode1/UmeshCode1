@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bento-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="neon-cyan-green-bento" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+
+    <linearGradient id="tile-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#00d5ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <filter id="tile-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseNode {
+        0%, 100% { r: 6; opacity: 1; }
+        50% { r: 8; opacity: 0.6; }
+      }
+      @keyframes synDash {
+        to { stroke-dashoffset: -120; }
+      }
+      .syn-line {
+        stroke-dasharray: 4, 6;
+        animation: synDash 3s linear infinite;
+      }
+      .node-pulse {
+        animation: pulseNode 2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= TILE 1: NEURAL VISION & DEEP LEARNING (LEFT) ================= -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="430" height="266" rx="14" fill="url(#bento-bg)" stroke="url(#tile-stroke)" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <path d="M 22 22 L 22 14 L 30 14" fill="none" stroke="#00ff9d" stroke-width="2"/>
+    <text x="36" y="28" font-family="'Orbitron', 'Inter', monospace" font-size="13" font-weight="700" fill="#00ff9d" letter-spacing="1">
+      🧠 NEURAL &amp; COMPUTER VISION LAB
+    </text>
+
+    <!-- Mini Neural Network Animation -->
+    <!-- Input Nodes -->
+    <g transform="translate(30, 48)">
+      <!-- Layer 1 (Input) -->
+      <circle cx="30" cy="30" r="6" fill="#00d5ff" class="node-pulse"/>
+      <circle cx="30" cy="70" r="6" fill="#00d5ff" class="node-pulse"/>
+      <circle cx="30" cy="110" r="6" fill="#00d5ff" class="node-pulse"/>
+
+      <!-- Layer 2 (Hidden) -->
+      <circle cx="120" cy="20" r="6" fill="#7928ca" class="node-pulse"/>
+      <circle cx="120" cy="50" r="6" fill="#00ff9d" class="node-pulse"/>
+      <circle cx="120" cy="90" r="6" fill="#00ff9d" class="node-pulse"/>
+      <circle cx="120" cy="120" r="6" fill="#7928ca" class="node-pulse"/>
+
+      <!-- Layer 3 (Output) -->
+      <circle cx="210" cy="50" r="7" fill="#00ff9d" filter="url(#tile-glow)" class="node-pulse"/>
+      <circle cx="210" cy="90" r="7" fill="#00d5ff" filter="url(#tile-glow)" class="node-pulse"/>
+
+      <!-- Synaptic Lines -->
+      <line x1="36" y1="30" x2="114" y2="20" stroke="#00d5ff" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+      <line x1="36" y1="30" x2="114" y2="50" stroke="#00d5ff" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+      <line x1="36" y1="70" x2="114" y2="50" stroke="#00d5ff" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+      <line x1="36" y1="70" x2="114" y2="90" stroke="#00ff9d" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+      <line x1="36" y1="110" x2="114" y2="90" stroke="#00ff9d" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+      <line x1="36" y1="110" x2="114" y2="120" stroke="#00ff9d" stroke-width="1.2" class="syn-line" opacity="0.6"/>
+
+      <line x1="126" y1="50" x2="204" y2="50" stroke="#00ff9d" stroke-width="1.4" class="syn-line"/>
+      <line x1="126" y1="90" x2="204" y2="90" stroke="#00d5ff" stroke-width="1.4" class="syn-line"/>
+      <line x1="126" y1="50" x2="204" y2="90" stroke="#7928ca" stroke-width="1.2" class="syn-line" opacity="0.7"/>
+
+      <!-- Live Metric Pill on the right side of canvas -->
+      <rect x="250" y="25" width="130" height="42" rx="8" fill="#111827" stroke="#1f2937"/>
+      <text x="260" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b">OCCLUSION ROBUST</text>
+      <text x="260" y="58" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#00ff9d">0% → 60% PASS</text>
+
+      <rect x="250" y="80" width="130" height="42" rx="8" fill="#111827" stroke="#1f2937"/>
+      <text x="260" y="97" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b">INFERENCE LATENCY</text>
+      <text x="260" y="113" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#38bdf8">&lt; 14ms (REALTIME)</text>
+    </g>
+
+    <!-- Description & Stack Tags -->
+    <text x="26" y="210" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">
+      Benchmarking hand-gesture landmark invariance under synthetic occlusions.
+    </text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(24, 226)">
+      <rect x="0" y="0" width="85" height="22" rx="4" fill="#1e293b"/>
+      <text x="12" y="15" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">MediaPipe</text>
+
+      <rect x="95" y="0" width="70" height="22" rx="4" fill="#1e293b"/>
+      <text x="107" y="15" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00ff9d">PyTorch</text>
+
+      <rect x="175" y="0" width="60" height="22" rx="4" fill="#1e293b"/>
+      <text x="187" y="15" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fbbf24">OpenCV</text>
+
+      <rect x="245" y="0" width="95" height="22" rx="4" fill="#1e293b"/>
+      <text x="257" y="15" font-family="'JetBrains Mono', monospace" font-size="10" fill="#f43f5e">Scikit-Learn</text>
+    </g>
+  </g>
+
+  <!-- ================= TILE 2: AGENTIC WORKFLOWS & MCP (TOP RIGHT) ================= -->
+  <g transform="translate(450, 0)">
+    <rect x="0" y="2" width="430" height="126" rx="14" fill="url(#bento-bg)" stroke="url(#tile-stroke)" stroke-width="1.5"/>
+    <text x="20" y="26" font-family="'Orbitron', 'Inter', monospace" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1">
+      ⚡ AGENTIC SYSTEMS &amp; MCP PROTOCOL
+    </text>
+
+    <!-- Pipeline diagram -->
+    <g transform="translate(18, 42)">
+      <rect x="0" y="6" width="105" height="34" rx="6" fill="#111827" stroke="#00d5ff" stroke-width="1"/>
+      <text x="12" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#38bdf8">LLM Client</text>
+
+      <path d="M 112 23 L 148 23" fill="none" stroke="#00ff9d" stroke-width="1.8" class="syn-line"/>
+
+      <rect x="154" y="6" width="115" height="34" rx="6" fill="#111827" stroke="#00ff9d" stroke-width="1"/>
+      <text x="164" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00ff9d">MCP Protocol</text>
+
+      <path d="M 276 23 L 306 23" fill="none" stroke="#00ff9d" stroke-width="1.8" class="syn-line"/>
+
+      <rect x="312" y="6" width="95" height="34" rx="6" fill="#111827" stroke="#a855f7" stroke-width="1"/>
+      <text x="322" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#c084fc">API Tools</text>
+    </g>
+
+    <text x="20" y="108" font-family="'Inter', sans-serif" font-size="11.5" fill="#94a3b8">
+      Architecting authenticated Streamable HTTP &amp; Stdio autonomous agent toolsets.
+    </text>
+  </g>
+
+  <!-- ================= TILE 3: OPEN SOURCE PRESTIGE (BOTTOM RIGHT) ================= -->
+  <g transform="translate(450, 142)">
+    <rect x="0" y="0" width="430" height="126" rx="14" fill="url(#bento-bg)" stroke="url(#tile-stroke)" stroke-width="1.5"/>
+    <text x="20" y="24" font-family="'Orbitron', 'Inter', monospace" font-size="12" font-weight="700" fill="#f59e0b" letter-spacing="1">
+      🏆 OPEN SOURCE CONTRIBUTIONS
+    </text>
+
+    <!-- Metrics row -->
+    <g transform="translate(20, 38)">
+      <rect x="0" y="0" width="118" height="42" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="12" y="18" font-family="'Inter', sans-serif" font-size="10" fill="#64748b">PULL REQUESTS</text>
+      <text x="12" y="34" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="800" fill="#00ff9d">81 Authored</text>
+
+      <rect x="135" y="0" width="118" height="42" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="12" y="18" font-family="'Inter', sans-serif" font-size="10" fill="#64748b" transform="translate(135,0)">CODE REVIEWS</text>
+      <text x="12" y="34" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="800" fill="#38bdf8" transform="translate(135,0)">118 Conducted</text>
+
+      <rect x="270" y="0" width="125" height="42" rx="8" fill="#111827" stroke="#1e293b"/>
+      <text x="12" y="18" font-family="'Inter', sans-serif" font-size="10" fill="#64748b" transform="translate(270,0)">TOP ECOSYSTEMS</text>
+      <text x="12" y="34" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="800" fill="#f59e0b" transform="translate(270,0)">GitHub • MS • GCP</text>
+    </g>
+
+    <text x="20" y="106" font-family="'Inter', sans-serif" font-size="11.5" fill="#94a3b8">
+      Active contributor &amp; code reviewer across top engineering foundations.
+    </text>
+  </g>
+</svg>
