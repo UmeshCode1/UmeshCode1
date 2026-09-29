@@ -49,9 +49,9 @@
 
 <br/>
 
-<!-- ==================== BENTO ARCHITECTURE & RESEARCH ==================== -->
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
 <div align="center">
-  <img src="assets/bento-architecture.svg" alt="Bento Architecture" width="100%"/>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
 </div>
 
 <br/>
@@ -77,8 +77,28 @@
 
 <br/>
 
+<!-- ==================== FLAGSHIP SYSTEMS MATRIX ==================== -->
+### `// 02. FLAGSHIP SYSTEMS & RESEARCH MATRIX`
+
+<div align="center">
+  <img src="assets/project-matrix.svg" width="100%" alt="Flagship Systems and Research Matrix"/>
+</div>
+
+<details>
+<summary><b>🚀 Explore Featured Repositories</b></summary>
+<br/>
+
+- 🧠 **Computer Vision** — [`hand-gesture-occlusion-benchmark`](https://github.com/UmeshCode1/hand-gesture-occlusion-benchmark) : MediaPipe landmark tracking &amp; synthetic occlusion testing under 0%–60% noise.
+- ⚡ **Autonomous Agents** — [`public-apis`](https://github.com/UmeshCode1/public-apis) : Standardized Model Context Protocol (MCP) server registry &amp; schema parser.
+- 🚍 **Fleet Telematics** — [`schoolbus`](https://github.com/UmeshCode1/schoolbus) : Real-time GPS coordinate streaming, fleet tracking &amp; automated notification platform.
+- 🏆 **Full-Stack Platform** — [`GDGoist-ATS-Leaderboard`](https://github.com/UmeshCode1/GDGoist-ATS-Leaderboard) : Algorithmic student evaluation &amp; dynamic competitive ranking system.
+
+</details>
+
+<br/>
+
 <!-- ==================== CORE ARCHITECTURAL DOMAINS ==================== -->
-### `// 02. CORE ENGINEERING DOMAINS & ARCHITECTURAL FOCUS`
+### `// 03. CORE ENGINEERING DOMAINS & ARCHITECTURAL FOCUS`
 
 <div align="center">
   <img src="assets/core-domains-bento.svg" width="100%" alt="Core Engineering Domains and Architectural Focus"/>
@@ -87,7 +107,7 @@
 <br/>
 
 <!-- ==================== ENGINEERING ARSENAL ==================== -->
-### `// 03. ENGINEERING ARSENAL & SYSTEM STACK`
+### `// 04. ENGINEERING ARSENAL & SYSTEM STACK`
 
 <div align="center">
   <img src="assets/tech-arsenal-matrix.svg" width="100%" alt="Engineering Arsenal and System Stack"/>
@@ -100,7 +120,7 @@
 <br/>
 
 <!-- ==================== TELEMETRY & ACTIVITY METRICS ==================== -->
-### `// 04. TELEMETRY & ACTIVITY METRICS`
+### `// 05. TELEMETRY & ACTIVITY METRICS`
 
 <div align="center">
 
@@ -138,7 +158,7 @@
 <br/>
 
 <!-- ==================== ENGINEERING PHILOSOPHY ==================== -->
-### `// 05. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
+### `// 06. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
 
 <div align="center">
   <img src="assets/engineering-loop.svg" alt="Engineering Philosophy Loop" width="100%"/>
@@ -147,7 +167,7 @@
 <br/>
 
 <!-- ==================== GLOBAL DISPATCH & CONNECT ==================== -->
-### `// 06. GLOBAL DISPATCH & NETWORK`
+### `// 07. GLOBAL DISPATCH & NETWORK`
 
 <div align="center">
 
