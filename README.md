@@ -215,11 +215,21 @@
 
 <br/>
 
+<!-- ==================== ANIMATED MANIFESTO QUOTE ==================== -->
+<div align="center">
+  <img src="assets/zindagi-quote.svg" alt="Make this Zindagi full of wonders and extraordinary moments — Umesh Patel" width="100%"/>
+</div>
+
+<br/>
+
 <!-- ==================== MINIMALIST CYBER FOOTER ==================== -->
 <div align="center">
   <img src="assets/system-status.svg" alt="Live System Telemetry" width="100%"/>
 </div>
 
-<sub>© Umesh Patel · AI & ML Systems Engineer · Open Source Contributor</sub>
+<br/>
 
+<div align="center">
+  <sub>© Umesh Patel · AI &amp; ML Systems Engineer · Open Source Contributor</sub>
 </div>
+
