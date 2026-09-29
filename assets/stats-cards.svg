@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2a4d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b1d07" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ================= CARD 1 ================= -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="215" height="106" rx="14" fill="url(#card-grad1)" stroke="#4338ca" stroke-width="1.2"/>
+    <g transform="translate(18, 22)">
+      <path d="M 4 2 L 18 2 C 22 2 24 6 24 10 L 24 26 C 24 22 22 18 18 18 L 4 18 Z M 4 2 L -10 2 C -14 2 -16 6 -16 10 L -16 26 C -16 22 -14 18 -10 18 L 4 18 Z" fill="none" stroke="#818cf8" stroke-width="2" transform="translate(16, 2)"/>
+    </g>
+    <text x="75" y="44" font-family="'Inter', -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="-0.5">100+</text>
+    <text x="75" y="66" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#e0e7ff">Repositories</text>
+    <text x="75" y="84" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">Code • Projects • Experiments</text>
+  </g>
+
+  <!-- ================= CARD 2 ================= -->
+  <g transform="translate(228, 0)">
+    <rect x="2" y="2" width="215" height="106" rx="14" fill="url(#card-grad2)" stroke="#7c3aed" stroke-width="1.2"/>
+    <g transform="translate(18, 22)">
+      <circle cx="16" cy="10" r="6" fill="none" stroke="#c084fc" stroke-width="2"/>
+      <path d="M 6 26 C 6 20 12 18 16 18 C 20 18 26 20 26 26" fill="none" stroke="#c084fc" stroke-width="2"/>
+      <circle cx="28" cy="12" r="4.5" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+      <path d="M 24 26 C 24 22 28 20 32 20 C 35 20 38 22 38 26" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+    </g>
+    <text x="75" y="44" font-family="'Inter', sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="-0.5">1K+</text>
+    <text x="75" y="66" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#f3e8ff">Community Members</text>
+    <text x="75" y="84" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">AnantreX Community</text>
+  </g>
+
+  <!-- ================= CARD 3 ================= -->
+  <g transform="translate(456, 0)">
+    <rect x="2" y="2" width="215" height="106" rx="14" fill="url(#card-grad3)" stroke="#0284c7" stroke-width="1.2"/>
+    <g transform="translate(18, 22)">
+      <circle cx="16" cy="10" r="6" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <path d="M 6 26 C 6 20 12 18 16 18 C 20 18 26 20 26 26" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="28" cy="12" r="4.5" fill="none" stroke="#38bdf8" stroke-width="1.6"/>
+      <path d="M 24 26 C 24 22 28 20 32 20 C 35 20 38 22 38 26" fill="none" stroke="#38bdf8" stroke-width="1.6"/>
+    </g>
+    <text x="75" y="44" font-family="'Inter', sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="-0.5">40+</text>
+    <text x="75" y="66" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#e0f2fe">Club Members</text>
+    <text x="75" y="84" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">AI &amp; ML Club OCT</text>
+  </g>
+
+  <!-- ================= CARD 4 ================= -->
+  <g transform="translate(684, 0)">
+    <rect x="2" y="2" width="214" height="106" rx="14" fill="url(#card-grad4)" stroke="#d97706" stroke-width="1.2"/>
+    <g transform="translate(18, 24)">
+      <path d="M 6 4 L 26 4 L 24 16 C 22 22 18 24 16 24 C 14 24 10 22 8 16 Z" fill="none" stroke="#fbbf24" stroke-width="2"/>
+      <path d="M 6 8 L 2 8 C 1 8 0 9 0 10 C 0 14 3 16 6 16" fill="none" stroke="#fbbf24" stroke-width="1.6"/>
+      <path d="M 26 8 L 30 8 C 31 8 32 9 32 10 C 32 14 29 16 26 16" fill="none" stroke="#fbbf24" stroke-width="1.6"/>
+      <line x1="16" y1="24" x2="16" y2="28" stroke="#fbbf24" stroke-width="2"/>
+      <line x1="10" y1="28" x2="22" y2="28" stroke="#fbbf24" stroke-width="2"/>
+    </g>
+    <text x="75" y="44" font-family="'Inter', sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="-0.5">10+</text>
+    <text x="75" y="66" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#fef3c7">Events &amp; Workshops</text>
+    <text x="75" y="84" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">Organized / Coordinated</text>
+  </g>
+</svg>

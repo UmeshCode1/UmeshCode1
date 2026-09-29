@@ -1,6 +1,63 @@
-<!-- ==================== MATRIX RAIN CYBER HEADER ==================== -->
+<!-- ==================== HERO SECTION ==================== -->
+<table border="0" width="100%">
+<tr>
+<td width="58%" valign="top">
+
+```text
+> Hello, World! 👋
+```
+
+# I'm <span style="color:#a855f7">Umesh Patel</span>
+
+**AI/ML Enthusiast · Research Explorer · Full-Stack Developer**  
+**Community Builder · Problem Solver**
+
+*B.Tech CSE (AI &amp; ML) @ Oriental College of Technology, Bhopal*  
+*Building AI-powered solutions, exploring research, and creating communities to help students grow in tech.*
+
+<br/>
+
+<a href="https://github.com/UmeshCode1?tab=followers" target="_blank">
+  <img src="https://img.shields.io/badge/Follow-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Follow"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="_blank">
+  <img src="https://img.shields.io/badge/Let's%20Connect%20%E2%86%92-1e1b4b?style=for-the-badge&logoColor=white" alt="Let's Connect"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/UmeshCode1"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://linkedin.com/in/umesh-patel-5647b42a4"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/nycto_phile.i"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="mailto:umesh.code1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<code>📍 Bhopal, MP</code>
+
+</td>
+<td width="42%" align="center" valign="top">
+
+<img src="assets/hero_artwork.jpg" width="100%" alt="Umesh Patel - AI Engineer Artwork"/>
+
+<br/>
+
+<div align="left">
+  <img src="https://img.shields.io/badge/%E2%97%8F%20Currently-Active-059669?style=flat-square" alt="Currently"/>
+  <br/>
+  <sub>• <b>Learning &amp; Building:</b> Deep Learning &amp; Neural Architectures</sub><br/>
+  <sub>• <b>AI/ML Projects:</b> Occlusion Benchmarking &amp; Vision Models</sub><br/>
+  <sub>• <b>Community:</b> AI &amp; ML Club OCT &amp; AnantreX</sub><br/>
+  <sub>• <b>Open Source:</b> Contributions to @GitHub, @Microsoft, @Google</sub>
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ==================== KEY METRIC CARDS ==================== -->
 <div align="center">
-  <img src="assets/header-matrix.svg" width="100%" alt="Umesh Patel - Matrix Cyber Header"/>
+  <img src="assets/stats-cards.svg" width="100%" alt="Key Metrics"/>
 </div>
 
 <br/>
@@ -16,19 +73,31 @@
 
 <br/>
 
-<!-- ==================== PROFILE TELEMETRY BADGES ==================== -->
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=39ff14&label=PROFILE+VIEWS" alt="Profile views"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/UmeshCode1?style=flat-square&label=FOLLOWERS&color=00d5ff" alt="Followers"/>
-  &nbsp;
-  <a href="https://github.com/UmeshCode1?tab=repositories">
-    <img src="https://img.shields.io/badge/PRs-81%20Authored-39ff14?style=flat-square&logo=git&logoColor=black" alt="Pull Requests"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/UmeshCode1">
-    <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source"/>
-  </a>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== TECH STACK SECTION ==================== -->
+## 🛠️ Tech Stack &amp; Tooling
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Filter-Languages-6366F1?style=flat-square" alt="Languages"/>
+<img src="https://img.shields.io/badge/Filter-AI%20%2F%20ML-1e1b4b?style=flat-square" alt="AI/ML"/>
+<img src="https://img.shields.io/badge/Filter-Frontend-1e1b4b?style=flat-square" alt="Frontend"/>
+<img src="https://img.shields.io/badge/Filter-Backend-1e1b4b?style=flat-square" alt="Backend"/>
+<img src="https://img.shields.io/badge/Filter-Cloud%20%26%20DevOps-1e1b4b?style=flat-square" alt="Cloud & DevOps"/>
+<img src="https://img.shields.io/badge/Filter-Tools%20%26%20Platforms-1e1b4b?style=flat-square" alt="Tools"/>
+
+<br/><br/>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,cpp,js,ts,html,css,react,nextjs,tailwind,fastapi,pytorch,tensorflow,sklearn,opencv,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=12" alt="Tech Stack Icons"/>
+</a>
+
 </div>
 
 <br/>
@@ -40,10 +109,74 @@
 
 <br/>
 
-<!-- ==================== CRT SCANLINE TERMINAL ==================== -->
-<div align="center">
-  <img src="assets/whoami-terminal.svg" width="100%" alt="whoami terminal"/>
-</div>
+<!-- ==================== FEATURED PROJECTS GRID ==================== -->
+## 📦 Featured Projects
+
+<table border="0" width="100%">
+<tr>
+
+<!-- Project 1 -->
+<td width="25%" valign="top">
+<a href="https://github.com/UmeshCode1/cnn-optimization-benchmark" target="_blank">
+  <img src="assets/project_cnn.jpg" width="100%" alt="CNN Optimization Benchmark"/>
+</a>
+<br/>
+<img src="https://img.shields.io/badge/Research-6366F1?style=flat-square" alt="Research"/>
+<h4>CNN Optimization Benchmark</h4>
+<sub>Research platform for empirical benchmarking and optimization of deep CNN compression.</sub>
+<br/><br/>
+<code>React</code> <code>FastAPI</code> <code>SQLite</code>
+<br/><br/>
+<a href="https://github.com/UmeshCode1/cnn-optimization-benchmark"><b>View Repository →</b></a>
+</td>
+
+<!-- Project 2 -->
+<td width="25%" valign="top">
+<a href="https://github.com/UmeshCode1/truck_tracker" target="_blank">
+  <img src="assets/project_truck.jpg" width="100%" alt="TruckTracker"/>
+</a>
+<br/>
+<img src="https://img.shields.io/badge/Product-0284C7?style=flat-square" alt="Product"/>
+<h4>TruckTracker</h4>
+<sub>Logistics &amp; vehicle trip tracking system with Web and Android app for drivers and managers.</sub>
+<br/><br/>
+<code>Android</code> <code>Web</code> <code>Mapbox</code>
+<br/><br/>
+<a href="https://github.com/UmeshCode1/truck_tracker"><b>View Repository →</b></a>
+</td>
+
+<!-- Project 3 -->
+<td width="25%" valign="top">
+<a href="https://github.com/UmeshCode1" target="_blank">
+  <img src="assets/project_tubenova.jpg" width="100%" alt="TubeNova"/>
+</a>
+<br/>
+<img src="https://img.shields.io/badge/Developer%20Tool-059669?style=flat-square" alt="Developer Tool"/>
+<h4>TubeNova</h4>
+<sub>YouTube video downloader with clean, modern dark UI and high-resolution stream parsing.</sub>
+<br/><br/>
+<code>Python</code> <code>yt-dlp</code> <code>Web</code>
+<br/><br/>
+<a href="https://github.com/UmeshCode1"><b>View Repository →</b></a>
+</td>
+
+<!-- Project 4 -->
+<td width="25%" valign="top">
+<a href="https://github.com/UmeshCode1/FACE_REC-ATT_SYSTEM" target="_blank">
+  <img src="assets/project_facerec.jpg" width="100%" alt="FACE_REC-ATT_SYSTEM"/>
+</a>
+<br/>
+<img src="https://img.shields.io/badge/AI%20Project-D97706?style=flat-square" alt="AI Project"/>
+<h4>FACE_REC-ATT_SYSTEM</h4>
+<sub>Face recognition based biometric attendance system for institutional deployment.</sub>
+<br/><br/>
+<code>Python</code> <code>OpenCV</code> <code>ML</code>
+<br/><br/>
+<a href="https://github.com/UmeshCode1/FACE_REC-ATT_SYSTEM"><b>View Repository →</b></a>
+</td>
+
+</tr>
+</table>
 
 <br/>
 
@@ -89,191 +222,8 @@
 
 <br/>
 
-<!-- ==================== ABOUT & DIRECTION ==================== -->
-<table>
-<tr>
-<td width="58%" valign="top">
-
-## About
-
-I build software at the intersection of **Artificial Intelligence, Machine Learning, research engineering, and real-world systems**.
-
-My work ranges from experimental benchmarking and computer vision to developer tooling, full-stack platforms, automation, and systems that connect people with technology.
-
-Currently focused on:
-
-- Deep Learning &amp; Computer Vision
-- AI/ML experimentation and benchmarking
-- Agentic systems and tool-driven workflows (MCP)
-- Cloud-native application architecture
-- Research-to-product engineering
-
-</td>
-<td width="42%" valign="top">
-
-## Current Direction
-
-**Research → Engineering → Product**
-
-```text
-Idea
- ↓
-Prototype
- ↓
-Experiment
- ↓
-Measure
- ↓
-Engineer
- ↓
-Deploy
- ↓
-Iterate
-```
-
-> Build things that can be tested,  
-> measured, improved, and actually used.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ==================== WHAT I BUILD ==================== -->
-## What I Build
-
-<div align="center">
-
-| Area | What I work on |
-|:---:|:---|
-| 🧠 AI / ML | Deep learning, computer vision, model experimentation |
-| 🔬 Research | Benchmarking, optimization, reproducibility, evaluation |
-| ⚡ Agents | Tool-using systems, MCP-oriented workflows, automation |
-| 🌐 Full Stack | React, Next.js, APIs, dashboards, data-driven products |
-| ☁️ Infrastructure | Docker, cloud deployment, databases, developer tooling |
-| 🧩 Systems | Practical software for operations, communities, and workflows |
-
-</div>
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== FEATURED WORK ==================== -->
-## Featured Work
-
-### 🔬 CNN Optimization Benchmark
-
-**A research-oriented workstation for empirical benchmarking of deep CNN compression and optimization strategies.**
-
-- Multi-objective evaluation across accuracy, latency, model size and energy
-- Metaheuristic optimization experiments
-- Pareto analysis and convergence telemetry
-- Hardware-aware profiling
-- React + TypeScript frontend with FastAPI backend
-- Live deployment: **[cnn.umeshlabs.in](https://cnn.umeshlabs.in/)**
-
-**Repository:** [UmeshCode1/cnn-optimization-benchmark](https://github.com/UmeshCode1/cnn-optimization-benchmark)
-
----
-
-### 🧠 AIML Club OCT — CONNECT
-
-**A digital platform for organizing and connecting an AI/ML student community.**
-
-Designed around events, members, operations, resources, communication and future club workflows.
-
-**Repository:** [UmeshCode1/Connect-AiML-Club-OCT](https://github.com/UmeshCode1/Connect-AiML-Club-OCT)
-
----
-
-### 👁️ Face Recognition Attendance System
-
-A computer-vision project for identity recognition and automated attendance workflows.
-
-**Repository:** [UmeshCode1/FACE_REC-ATT_SYSTEM](https://github.com/UmeshCode1/FACE_REC-ATT_SYSTEM)
-
----
-
-### 🏫 AIML Hub
-
-A web platform exploring a more structured digital experience for AI/ML learning and community resources.
-
-**Repository:** [UmeshCode1/aiml-hub](https://github.com/UmeshCode1/aiml-hub)
-
----
-
-### 🤖 Aetheris AI
-
-A GitHub-focused AI development companion concept built around code analysis, debugging, automation and knowledge access.
-
-**Repository:** [UmeshCode1/Aetheris-AI](https://github.com/UmeshCode1/Aetheris-AI)
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== ENGINEERING STACK ==================== -->
-## My Engineering Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nextjs,html,css,tailwind,fastapi,pytorch,tensorflow,sklearn,opencv,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=8" alt="Technology stack"/>
-
-</div>
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== ENGINEERING MINDSET ==================== -->
-## Engineering Mindset
-
-<div align="center">
-
-> **Research tells me what works.**  
-> **Engineering makes it reliable.**  
-> **Product makes it useful.**
-
-</div>
-
-I like projects where there is a real technical question underneath the interface — not just another CRUD app with a gradient slapped on it.
-
-That means caring about:
-
-```text
-Correctness    →    Measurement    →    Reliability
-     ↑                         ↓
-     └──────── Iteration ──────┘
-```
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== GITHUB TELEMETRY ==================== -->
-## GitHub Telemetry
+<!-- ==================== GITHUB TELEMETRY & STATS ==================== -->
+## 📊 GitHub Telemetry &amp; Stats
 
 <div align="center">
 
@@ -288,14 +238,7 @@ Correctness    →    Measurement    →    Reliability
 
 <img width="92%" src="https://streak-stats.demolab.com?user=UmeshCode1&hide_border=true&theme=transparent&border_radius=12" alt="GitHub streak"/>
 
-</div>
-
-<br/>
-
-<!-- ==================== CONTRIBUTION FLOW ==================== -->
-## Contribution Flow
-
-<div align="center">
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="96%" alt="Contribution graph"/>
 
@@ -303,29 +246,30 @@ Correctness    →    Measurement    →    Reliability
 
 <br/>
 
-<!-- ==================== ALTERNATIVE SNAKE GRID ==================== -->
+<!-- ==================== CRT SCANLINE TERMINAL (WHOAMI) ==================== -->
 <details>
-<summary><b>🐍 View Classic Contribution Snake Grid</b></summary>
+<summary><b>💻 Open Interactive Developer Terminal // <code>$ whoami</code></b></summary>
 <br/>
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
-    <img alt="github-snake" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
+  <img src="assets/whoami-terminal.svg" width="100%" alt="whoami terminal"/>
 </div>
 </details>
 
 <br/>
 
-<!-- ==================== BEYOND THE CODE ==================== -->
-## Beyond the Code
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
 
-I also spend time building and organizing technical communities, shaping developer experiences, and turning ideas into systems that other people can use.
+<br/>
 
-That includes work around:
+<!-- ==================== COMMUNITY & LEADERSHIP ==================== -->
+## 👥 Community &amp; Leadership
 
-**AI communities · student technology · research platforms · events · automation · developer tooling · product design**
+<div align="center">
+  <img src="assets/community-cards.svg" width="100%" alt="Community and Leadership"/>
+</div>
 
 <br/>
 
@@ -336,36 +280,11 @@ That includes work around:
 
 <br/>
 
-<!-- ==================== CONNECT ==================== -->
-## Connect
-
+<!-- ==================== FOOTER CTA BANNER ==================== -->
 <div align="center">
-
-<a href="https://github.com/UmeshCode1">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/umesh-patel-5647b42a4">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:umesh.code1@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/UmeshCode1?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore%20My%20Repositories-000000?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+  <a href="mailto:umesh.code1@gmail.com">
+    <img src="assets/footer-cta.svg" width="100%" alt="Get In Touch"/>
+  </a>
 </div>
 
 <br/>
