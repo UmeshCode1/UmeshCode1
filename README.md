@@ -16,7 +16,7 @@
 
 <br/>
 
-<!-- ==================== PROFILE TELEMETRY BADGES ==================== -->
+<!-- ==================== PROFILE TELEMETRY COMMAND BAR ==================== -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=39ff14&label=PROFILE+VIEWS" alt="Profile views"/>
   &nbsp;
@@ -25,6 +25,8 @@
   <a href="https://github.com/UmeshCode1?tab=repositories">
     <img src="https://img.shields.io/badge/PRs-81%20Authored-39ff14?style=flat-square&logo=git&logoColor=black" alt="Pull Requests"/>
   </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00d5ff?style=flat-square&logo=github&logoColor=white" alt="Code Reviews"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1">
     <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source"/>
@@ -47,13 +49,6 @@
 
 <br/>
 
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
 <!-- ==================== BENTO ARCHITECTURE & RESEARCH ==================== -->
 <div align="center">
   <img src="assets/bento-architecture.svg" alt="Bento Architecture" width="100%"/>
@@ -61,78 +56,60 @@
 
 <br/>
 
-<!-- ==================== OPEN SOURCE LEADERSHIP ==================== -->
+<!-- ==================== UPSTREAM OPEN SOURCE IMPACT ==================== -->
+### `// 01. UPSTREAM OPEN SOURCE IMPACT & VERIFIED CONTRIBUTIONS`
+
 <div align="center">
-  <a href="https://github.com/github/docs/pull/46118" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Docs%20Contributor%20(%2346118)-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/microsoft/api-guidelines/pull/596" target="_blank">
-    <img src="https://img.shields.io/badge/Microsoft-API%20Guidelines%20(%23596)-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/googleapis/mcp-toolbox/issues/4084" target="_blank">
-    <img src="https://img.shields.io/badge/Google-MCP%20Toolbox%20(%234084)-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/OpenMind/OM1/pull/2694" target="_blank">
-    <img src="https://img.shields.io/badge/OpenMind-OM1%20HAL%20(Merged)-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/>
-  </a>
+
+| Ecosystem | Repository | Contribution Focus | Upstream Status |
+| :--- | :--- | :--- | :---: |
+| **GitHub** | [`github/docs`](https://github.com/github/docs/pull/46118) | Documented async profile achievement batch queue latency window ([#46118](https://github.com/github/docs/pull/46118)) | `🟢 Open / CI Passed` |
+| **Microsoft** | [`microsoft/api-guidelines`](https://github.com/microsoft/api-guidelines/pull/596) | REST API guideline topology validation & spec cross-referencing ([#596](https://github.com/microsoft/api-guidelines/pull/596)) | `🟢 Open / CLA Passed` |
+| **OpenMind** | [`OpenMind/OM1`](https://github.com/OpenMind/OM1/pull/2694) | Robot Hardware Abstraction Layer (HAL) sensor bus interfaces ([#2694](https://github.com/OpenMind/OM1/pull/2694)) | `🟣 Merged into Main` |
+| **Google** | [`googleapis/mcp-toolbox`](https://github.com/googleapis/mcp-toolbox/issues/4084) | Model Context Protocol tool schema parsing & integration audit ([#4084](https://github.com/googleapis/mcp-toolbox/issues/4084)) | `🟢 Upstream Triage` |
+| **Public APIs** | [`public-apis/public-apis`](https://github.com/public-apis/public-apis/pull/7580) | Standardized Model Context Protocol (MCP) server registry ([#7580](https://github.com/public-apis/public-apis/pull/7580)) | `🟢 Open / Validated` |
+
 </div>
 
 <br/>
 
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
+<!-- ==================== CORE ARCHITECTURAL DOMAINS ==================== -->
+### `// 02. CORE ENGINEERING DOMAINS & ARCHITECTURAL FOCUS`
 
-<br/>
-
-<!-- ==================== ABOUT & DIRECTION ==================== -->
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="50%" valign="top">
 
-## About
-
-I build software at the intersection of **Artificial Intelligence, Machine Learning, research engineering, and real-world systems**.
-
-My work ranges from experimental benchmarking and computer vision to developer tooling, full-stack platforms, automation, and systems that connect people with technology.
-
-Currently focused on:
-
-- Deep Learning &amp; Computer Vision
-- AI/ML experimentation and benchmarking
-- Agentic systems and tool-driven workflows (MCP)
-- Cloud-native application architecture
-- Research-to-product engineering
+#### 🧠 Autonomous Agent Systems (MCP)
+- Architecting autonomous, tool-using agent fleets using Anthropic’s **Model Context Protocol (MCP)**.
+- Designing deterministic execution trees, self-healing state transitions, and context cache compression.
+- Building standard Streamable HTTP & Stdio client/server bridges for agentic tool use.
 
 </td>
-<td width="42%" valign="top">
+<td width="50%" valign="top">
 
-## Current Direction
+#### 🔬 Deep Learning & Computer Vision Research
+- Benchmarking neural network failure boundaries under synthetic partial occlusions (0%–60%).
+- Translation- and scale-invariant spatial landmark tracking using MediaPipe and custom neural heads.
+- Real-time low-latency webcam inference pipelines (<14ms frame processing).
 
-**Research → Engineering → Product**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-```text
-Idea
- ↓
-Prototype
- ↓
-Experiment
- ↓
-Measure
- ↓
-Engineer
- ↓
-Deploy
- ↓
-Iterate
-```
+#### ⚡ Distributed Systems & Backend Engineering
+- High-throughput asynchronous REST & streaming APIs engineered with **FastAPI** and **Python**.
+- Event-driven microservices with Docker containerization, Kubernetes coordination, and GCP deployment.
+- Relational schema modeling and vector search pipelines with **PostgreSQL** & **pgvector**.
 
-> Build things that can be tested,  
-> measured, improved, and actually used.
+</td>
+<td width="50%" valign="top">
+
+#### 🚀 Scientific Benchmarking & Optimization
+- Metaheuristic optimization algorithms applied to deep CNN architecture compression and pruning.
+- Empirical multi-objective Pareto front analysis across accuracy, inference latency, and energy.
+- Reproducible experiment tracking and hardware-aware runtime profiling.
 
 </td>
 </tr>
@@ -140,105 +117,99 @@ Iterate
 
 <br/>
 
-<!-- ==================== WHAT I BUILD ==================== -->
-## What I Build
+<!-- ==================== RESEARCH WORKSTATIONS & FLAGSHIP PLATFORMS ==================== -->
+### `// 03. RESEARCH WORKSTATIONS & FLAGSHIP PLATFORMS`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔬 CNN Optimization Benchmark Workstation
+**Scientific research laboratory platform for benchmarking deep CNN compression.**
+- Multi-objective evaluation across accuracy, latency, model size, and energy
+- Metaheuristic hyperparameter optimization & Pareto telemetry
+- Hardware-aware runtime profiling with interactive visualization
+- **Live Deployment:** [cnn.umeshlabs.in](https://cnn.umeshlabs.in/)
+- **Repository:** [`UmeshCode1/cnn-optimization-benchmark`](https://github.com/UmeshCode1/cnn-optimization-benchmark)
+- **Stack:** `Python` `PyTorch` `FastAPI` `React` `TypeScript`
+
+</td>
+<td width="50%" valign="top">
+
+#### 👁️ Computer Vision Occlusion Benchmark
+**Modular computer vision framework evaluating neural failure boundaries.**
+- Rigorous stress testing of landmark detection under 0%–60% synthetic occlusion masks
+- Translation and scale-invariant normalization for robust spatial geometry
+- Sub-14ms real-time webcam inference loop
+- **Repository:** [`UmeshCode1/hand-gesture-occlusion-benchmark`](https://github.com/UmeshCode1/hand-gesture-occlusion-benchmark)
+- **Stack:** `MediaPipe` `OpenCV` `PyTorch` `Scikit-Learn` `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ Model Context Protocol (MCP) Agent Core
+**Ecosystem framework for scalable tool discovery and agent orchestration.**
+- Dynamic tool registration, schema enforcement, and structured LLM tool calling
+- Standardized Stdio & HTTP streaming RPC interfaces
+- Integrated with top developer tools and open-source MCP repositories
+- **Repository:** [`UmeshCode1/lets-connect`](https://github.com/UmeshCode1/lets-connect)
+- **Stack:** `Python` `FastMCP` `Docker` `AsyncIO`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🚛 Enterprise Operations & Dispatch Telematics
+**Multi-stop dispatch logistics and operational driver telematics engine.**
+- Real-time fleet tracking, geofenced route sequencing, and delivery dispatch
+- High-reliability synchronization between native mobile endpoints and cloud backends
+- Distributed telemetry logging and automated job dispatch workflows
+- **Stack:** `FastAPI` `PostgreSQL` `Docker` `Android Telematics`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ==================== ENGINEERING ARSENAL ==================== -->
+### `// 04. ENGINEERING ARSENAL & SYSTEM STACK`
 
 <div align="center">
 
-| Area | What I work on |
-|:---:|:---|
-| 🧠 AI / ML | Deep learning, computer vision, model experimentation |
-| 🔬 Research | Benchmarking, optimization, reproducibility, evaluation |
-| ⚡ Agents | Tool-using systems, MCP-oriented workflows, automation |
-| 🌐 Full Stack | React, Next.js, APIs, dashboards, data-driven products |
-| ☁️ Infrastructure | Docker, cloud deployment, databases, developer tooling |
-| 🧩 Systems | Practical software for operations, communities, and workflows |
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Core Languages** | `Python` • `C++` • `TypeScript` • `JavaScript` • `SQL` • `Bash` • `HTML/CSS` |
+| **AI, Deep Learning & Vision** | `PyTorch` • `TensorFlow` • `MediaPipe` • `OpenCV` • `Scikit-Learn` • `ONNX Runtime` • `NumPy` |
+| **Agentic AI & Protocols** | `Model Context Protocol (MCP)` • `LLM Tooling` • `Agent Workflows` • `FastMCP` • `AsyncIO` |
+| **Backend & Cloud Infrastructure**| `FastAPI` • `Next.js` • `Docker` • `Kubernetes` • `Google Cloud Platform (GCP)` • `PostgreSQL` • `Supabase` |
+| **Engineering Tooling** | `Git` • `GitHub Actions CI/CD` • `Linux` • `Jest` • `Pytest` • `Vite` |
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,nextjs,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=9" alt="Technology stack"/>
 
 </div>
 
 <br/>
 
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== ENGINEERING STACK ==================== -->
-## My Engineering Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nextjs,html,css,tailwind,fastapi,pytorch,tensorflow,sklearn,opencv,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=8" alt="Technology stack"/>
-
-</div>
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== ENGINEERING MINDSET ==================== -->
-## Engineering Mindset
-
-<div align="center">
-
-> **Research tells me what works.**  
-> **Engineering makes it reliable.**  
-> **Product makes it useful.**
-
-</div>
-
-I like projects where there is a real technical question underneath the interface — not just another CRUD app with a gradient slapped on it.
-
-That means caring about:
-
-```text
-Correctness    →    Measurement    →    Reliability
-     ↑                         ↓
-     └──────── Iteration ──────┘
-```
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== GITHUB TELEMETRY ==================== -->
-## GitHub Telemetry
+<!-- ==================== TELEMETRY & ACTIVITY METRICS ==================== -->
+### `// 05. TELEMETRY & ACTIVITY METRICS`
 
 <div align="center">
 
 <a href="https://github.com/UmeshCode1">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=UmeshCode1&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&theme=transparent&rank_icon=github" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=UmeshCode1&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&bg_color=00000000&title_color=00d5ff&icon_color=39ff14&text_color=c9ffd6&rank_icon=github" alt="GitHub stats"/>
 </a>
+&nbsp;
 <a href="https://github.com/UmeshCode1">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&hide_border=true&border_radius=12&theme=transparent" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=00000000&title_color=00d5ff&text_color=c9ffd6" alt="Top languages"/>
 </a>
 
-<br/>
+<br/><br/>
 
-<img width="92%" src="https://streak-stats.demolab.com?user=UmeshCode1&hide_border=true&theme=transparent&border_radius=12" alt="GitHub streak"/>
-
-</div>
-
-<br/>
-
-<!-- ==================== CONTRIBUTION FLOW ==================== -->
-## Contribution Flow
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=UmeshCode1&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="96%" alt="Contribution graph"/>
+<img width="94%" src="https://streak-stats.demolab.com?user=UmeshCode1&hide_border=true&border_radius=12&background=00000000&stroke=39ff14&ring=39ff14&fire=39ff14&currStreakNum=00d5ff&sideNums=c9ffd6&currStreakLabel=39ff14&sideLabels=c9ffd6&dates=808080" alt="GitHub streak"/>
 
 </div>
 
@@ -259,14 +230,47 @@ Correctness    →    Measurement    →    Reliability
 
 <br/>
 
-<!-- ==================== BEYOND THE CODE ==================== -->
-## Beyond the Code
+<!-- ==================== ENGINEERING PHILOSOPHY ==================== -->
+### `// 06. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
 
-I also spend time building and organizing technical communities, shaping developer experiences, and turning ideas into systems that other people can use.
+<div align="center">
 
-That includes work around:
+```text
+┌────────────────┐      ┌────────────────┐      ┌────────────────┐
+│   Hypothesis   │ ───▶ │ Implementation │ ───▶ │   Benchmark    │
+└────────────────┘      └────────────────┘      └────────────────┘
+        ▲                                                │
+        └────────────── [ System Hardening ] ────────────┘
+```
 
-**AI communities · open research platforms · developer ecosystems · automation · distributed tooling · product engineering**
+> **"Research tells me what works. Engineering makes it reliable. Product makes it useful."**
+
+</div>
+
+<br/>
+
+<!-- ==================== GLOBAL DISPATCH & CONNECT ==================== -->
+### `// 07. GLOBAL DISPATCH & NETWORK`
+
+<div align="center">
+
+<a href="https://github.com/UmeshCode1" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-UmeshCode1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:umesh.code1@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-Dispatch%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+&nbsp;
+<a href="https://github.com/UmeshCode1?tab=repositories" target="_blank">
+  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-39ff14?style=for-the-badge&logo=git&logoColor=black" alt="Repositories"/>
+</a>
+
+</div>
 
 <br/>
 
@@ -277,45 +281,13 @@ That includes work around:
 
 <br/>
 
-<!-- ==================== CONNECT ==================== -->
-## Connect
-
+<!-- ==================== MINIMALIST CYBER FOOTER ==================== -->
 <div align="center">
 
-<a href="https://github.com/UmeshCode1">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/umesh-patel-5647b42a4">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:umesh.code1@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
+```text
+[ SYSTEM STATUS: ONLINE // 81 PRs AUTHORED // 118 REVIEWS // READY FOR ADVANCED AI INITIATIVES ]
+```
 
-<br/><br/>
-
-<a href="https://github.com/UmeshCode1?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore%20My%20Repositories-000000?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ==================== FOOTER ==================== -->
-<div align="center">
-
-### Building today. Measuring tomorrow. Rewriting the limits in between.
-
-<sub>© Umesh Patel · UmeshCode1</sub>
+<sub>© Umesh Patel · AI & ML Systems Engineer · Open Source Contributor</sub>
 
 </div>
