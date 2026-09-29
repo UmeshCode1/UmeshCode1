@@ -1,0 +1,131 @@
+<svg viewBox="0 0 880 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Umesh Patel Core Engineering Domains and Architectural Focus">
+  <defs>
+    <linearGradient id="domain-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09120e"/>
+      <stop offset="100%" stop-color="#040806"/>
+    </linearGradient>
+
+    <linearGradient id="stroke-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="stroke-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="stroke-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="stroke-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; filter: drop-shadow(0 0 4px #00ff88); }
+      }
+      .beacon { animation: pulseGlow 3s ease-in-out infinite; }
+      .domain-title { font-family: 'Orbitron', 'Inter', monospace; font-size: 11.5px; font-weight: 700; letter-spacing: 0.8px; }
+      .domain-body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5px; fill: #cbd5e1; }
+      .domain-bullet { fill: #00ff88; }
+    </style>
+  </defs>
+
+  <!-- ==================== TILE 1: AUTONOMOUS AGENT SYSTEMS (MCP) ==================== -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="430" height="122" rx="12" fill="url(#domain-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="430" height="122" rx="12" fill="none" stroke="url(#stroke-cyan)" stroke-width="0.8"/>
+
+    <circle cx="22" cy="22" r="4" fill="#00e5ff" filter="url(#soft-glow)" class="beacon"/>
+    <text x="34" y="26" class="domain-title" fill="#00e5ff">AUTONOMOUS AGENT SYSTEMS (MCP)</text>
+    <text x="412" y="25" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#67e8f9" text-anchor="end">01</text>
+
+    <!-- Bullets -->
+    <circle cx="22" cy="48" r="2.5" class="domain-bullet"/>
+    <text x="32" y="52" class="domain-body">Architecting autonomous, tool-using agent fleets via <tspan fill="#f0fdf4" font-weight="600">Model Context Protocol</tspan></text>
+
+    <circle cx="22" cy="72" r="2.5" class="domain-bullet"/>
+    <text x="32" y="76" class="domain-body">Deterministic execution trees, self-healing state transitions &amp; context cache</text>
+
+    <circle cx="22" cy="96" r="2.5" class="domain-bullet"/>
+    <text x="32" y="100" class="domain-body">Standardized Streamable HTTP &amp; Stdio client/server bridges for tool use</text>
+  </g>
+
+  <!-- ==================== TILE 2: DEEP LEARNING & CV RESEARCH ==================== -->
+  <g transform="translate(450, 0)">
+    <rect x="2" y="2" width="426" height="122" rx="12" fill="url(#domain-bg)" stroke="#00ff88" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="426" height="122" rx="12" fill="none" stroke="url(#stroke-green)" stroke-width="0.8"/>
+
+    <circle cx="22" cy="22" r="4" fill="#00ff88" filter="url(#soft-glow)" class="beacon"/>
+    <text x="34" y="26" class="domain-title" fill="#00ff88">DEEP LEARNING &amp; CV RESEARCH</text>
+    <text x="408" y="25" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#6ee7b7" text-anchor="end">02</text>
+
+    <!-- Bullets -->
+    <circle cx="22" cy="48" r="2.5" class="domain-bullet"/>
+    <text x="32" y="52" class="domain-body">Neural network failure boundary benchmarking under synthetic occlusions (0-60%)</text>
+
+    <circle cx="22" cy="72" r="2.5" class="domain-bullet"/>
+    <text x="32" y="76" class="domain-body">Spatial landmark tracking invariance using MediaPipe and custom neural heads</text>
+
+    <circle cx="22" cy="96" r="2.5" class="domain-bullet"/>
+    <text x="32" y="100" class="domain-body">Real-time low-latency webcam inference pipelines (<tspan fill="#f0fdf4" font-weight="600">&lt;14ms</tspan> frame processing)</text>
+  </g>
+
+  <!-- ==================== TILE 3: DISTRIBUTED SYSTEMS & BACKEND ==================== -->
+  <g transform="translate(0, 136)">
+    <rect x="2" y="2" width="430" height="122" rx="12" fill="url(#domain-bg)" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="430" height="122" rx="12" fill="none" stroke="url(#stroke-amber)" stroke-width="0.8"/>
+
+    <circle cx="22" cy="22" r="4" fill="#fbbf24" filter="url(#soft-glow)" class="beacon"/>
+    <text x="34" y="26" class="domain-title" fill="#fbbf24">DISTRIBUTED SYSTEMS &amp; BACKEND</text>
+    <text x="412" y="25" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#fde68a" text-anchor="end">03</text>
+
+    <!-- Bullets -->
+    <circle cx="22" cy="48" r="2.5" fill="#fbbf24"/>
+    <text x="32" y="52" class="domain-body">High-throughput asynchronous REST &amp; streaming APIs with <tspan fill="#f0fdf4" font-weight="600">FastAPI</tspan></text>
+
+    <circle cx="22" cy="72" r="2.5" fill="#fbbf24"/>
+    <text x="32" y="76" class="domain-body">Microservices with Docker containerization, Kubernetes &amp; GCP cloud deployment</text>
+
+    <circle cx="22" cy="96" r="2.5" fill="#fbbf24"/>
+    <text x="32" y="100" class="domain-body">Relational schema design and high-dimension vector search with <tspan fill="#f0fdf4" font-weight="600">pgvector</tspan></text>
+  </g>
+
+  <!-- ==================== TILE 4: BENCHMARKING & OPTIMIZATION ==================== -->
+  <g transform="translate(450, 136)">
+    <rect x="2" y="2" width="426" height="122" rx="12" fill="url(#domain-bg)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="426" height="122" rx="12" fill="none" stroke="url(#stroke-purple)" stroke-width="0.8"/>
+
+    <circle cx="22" cy="22" r="4" fill="#a855f7" filter="url(#soft-glow)" class="beacon"/>
+    <text x="34" y="26" class="domain-title" fill="#c084fc">BENCHMARKING &amp; OPTIMIZATION</text>
+    <text x="408" y="25" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#d8b4fe" text-anchor="end">04</text>
+
+    <!-- Bullets -->
+    <circle cx="22" cy="48" r="2.5" fill="#c084fc"/>
+    <text x="32" y="52" class="domain-body">Metaheuristic optimization algorithms applied to deep CNN pruning &amp; compression</text>
+
+    <circle cx="22" cy="72" r="2.5" fill="#c084fc"/>
+    <text x="32" y="76" class="domain-body">Empirical multi-objective Pareto front analysis: accuracy vs latency vs energy</text>
+
+    <circle cx="22" cy="96" r="2.5" fill="#c084fc"/>
+    <text x="32" y="100" class="domain-body">Hardware-aware runtime profiling, PyTorch FLOPs &amp; latency instrumentation</text>
+  </g>
+</svg>

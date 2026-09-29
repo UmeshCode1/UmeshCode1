@@ -1,0 +1,245 @@
+<svg viewBox="0 0 880 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Umesh Patel Technical Arsenal and System Stack">
+  <defs>
+    <linearGradient id="matrix-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1310"/>
+      <stop offset="100%" stop-color="#040807"/>
+    </linearGradient>
+
+    <linearGradient id="pill-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11221b"/>
+      <stop offset="100%" stop-color="#0a1611"/>
+    </linearGradient>
+
+    <linearGradient id="glow-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="glow-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="glow-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="glow-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseDot {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .dot-green { animation: pulseDot 2.8s ease-in-out infinite; transform-origin: 24px 24px; }
+      .dot-cyan { animation: pulseDot 2.8s ease-in-out 0.7s infinite; transform-origin: 474px 24px; }
+      .dot-amber { animation: pulseDot 2.8s ease-in-out 1.4s infinite; transform-origin: 24px 162px; }
+      .dot-purple { animation: pulseDot 2.8s ease-in-out 2.1s infinite; transform-origin: 474px 162px; }
+      .pill-text { font-family: 'JetBrains Mono', 'Segoe UI', monospace; font-size: 11px; font-weight: 600; fill: #f0fdf4; text-anchor: middle; }
+      .cat-title { font-family: 'Orbitron', 'Inter', monospace; font-size: 12px; font-weight: 700; letter-spacing: 0.8px; }
+    </style>
+  </defs>
+
+  <!-- ==================== QUADRANT 1: AI, DEEP LEARNING & CV (TOP-LEFT) ==================== -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="430" height="124" rx="12" fill="url(#matrix-bg)" stroke="#00ff88" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="430" height="124" rx="12" fill="none" stroke="url(#glow-green)" stroke-width="0.8"/>
+
+    <circle cx="24" cy="24" r="4.5" fill="#00ff88" filter="url(#soft-glow)" class="dot-green"/>
+    <text x="38" y="28" class="cat-title" fill="#00ff88">AI, DEEP LEARNING &amp; CV</text>
+    <text x="410" y="27" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6ee7b7" text-anchor="end">// 01_NEURAL</text>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(18, 44)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#f97316" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#f97316"/>
+      <text x="50" y="18" class="pill-text">PyTorch</text>
+    </g>
+    <g transform="translate(110, 44)">
+      <rect width="104" height="28" rx="6" fill="url(#pill-bg)" stroke="#ea580c" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#ea580c"/>
+      <text x="60" y="18" class="pill-text">TensorFlow</text>
+    </g>
+    <g transform="translate(222, 44)">
+      <rect width="98" height="28" rx="6" fill="url(#pill-bg)" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#06b6d4"/>
+      <text x="57" y="18" class="pill-text">MediaPipe</text>
+    </g>
+    <g transform="translate(328, 44)">
+      <rect width="82" height="28" rx="6" fill="url(#pill-bg)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#38bdf8"/>
+      <text x="48" y="18" class="pill-text">OpenCV</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(18, 80)">
+      <rect width="102" height="28" rx="6" fill="url(#pill-bg)" stroke="#34d399" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="51" y="18" class="pill-text" fill="#a7f3d0">Scikit-Learn</text>
+    </g>
+    <g transform="translate(128, 80)">
+      <rect width="112" height="28" rx="6" fill="url(#pill-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="56" y="18" class="pill-text" fill="#67e8f9">ONNX Runtime</text>
+    </g>
+    <g transform="translate(248, 80)">
+      <rect width="74" height="28" rx="6" fill="url(#pill-bg)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="37" y="18" class="pill-text" fill="#bae6fd">NumPy</text>
+    </g>
+    <g transform="translate(330, 80)">
+      <rect width="80" height="28" rx="6" fill="url(#pill-bg)" stroke="#00ff88" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="40" y="18" class="pill-text" fill="#bbf7d0">YOLOv8</text>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 2: AGENTIC SYSTEMS & PROTOCOLS (TOP-RIGHT) ==================== -->
+  <g transform="translate(450, 0)">
+    <rect x="2" y="2" width="426" height="124" rx="12" fill="url(#matrix-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="426" height="124" rx="12" fill="none" stroke="url(#glow-cyan)" stroke-width="0.8"/>
+
+    <circle cx="24" cy="24" r="4.5" fill="#00e5ff" filter="url(#soft-glow)" class="dot-cyan"/>
+    <text x="38" y="28" class="cat-title" fill="#00e5ff">AGENTIC AI &amp; PROTOCOLS</text>
+    <text x="406" y="27" font-family="'JetBrains Mono', monospace" font-size="10" fill="#67e8f9" text-anchor="end">// 02_MCP_FLEET</text>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(18, 44)">
+      <rect width="194" height="28" rx="6" fill="url(#pill-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#00e5ff"/>
+      <text x="105" y="18" class="pill-text">Model Context Protocol (MCP)</text>
+    </g>
+    <g transform="translate(220, 44)">
+      <rect width="98" height="28" rx="6" fill="url(#pill-bg)" stroke="#00ff88" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#00ff88"/>
+      <text x="56" y="18" class="pill-text">LLM Tooling</text>
+    </g>
+    <g transform="translate(326, 44)">
+      <rect width="76" height="28" rx="6" fill="url(#pill-bg)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#a855f7"/>
+      <text x="45" y="18" class="pill-text">FastMCP</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(18, 80)">
+      <rect width="138" height="28" rx="6" fill="url(#pill-bg)" stroke="#67e8f9" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="69" y="18" class="pill-text" fill="#a5f3fc">Agent Workflows</text>
+    </g>
+    <g transform="translate(164, 80)">
+      <rect width="118" height="28" rx="6" fill="url(#pill-bg)" stroke="#34d399" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="59" y="18" class="pill-text" fill="#bbf7d0">AsyncIO Bridges</text>
+    </g>
+    <g transform="translate(290, 80)">
+      <rect width="112" height="28" rx="6" fill="url(#pill-bg)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="56" y="18" class="pill-text" fill="#e9d5ff">Prompt Engineering</text>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 3: DISTRIBUTED BACKEND & CLOUD (BOTTOM-LEFT) ==================== -->
+  <g transform="translate(0, 138)">
+    <rect x="2" y="2" width="430" height="124" rx="12" fill="url(#matrix-bg)" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="430" height="124" rx="12" fill="none" stroke="url(#glow-amber)" stroke-width="0.8"/>
+
+    <circle cx="24" cy="24" r="4.5" fill="#fbbf24" filter="url(#soft-glow)" class="dot-amber"/>
+    <text x="38" y="28" class="cat-title" fill="#fbbf24">BACKEND &amp; CLOUD ARCHITECTURE</text>
+    <text x="410" y="27" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fde68a" text-anchor="end">// 03_SYSTEMS</text>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(18, 44)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#10b981" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#10b981"/>
+      <text x="50" y="18" class="pill-text">FastAPI</text>
+    </g>
+    <g transform="translate(110, 44)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#f1f5f9" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#f1f5f9"/>
+      <text x="50" y="18" class="pill-text">Next.js</text>
+    </g>
+    <g transform="translate(202, 44)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#38bdf8"/>
+      <text x="50" y="18" class="pill-text">Docker</text>
+    </g>
+    <g transform="translate(294, 44)">
+      <rect width="112" height="28" rx="6" fill="url(#pill-bg)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#60a5fa"/>
+      <text x="63" y="18" class="pill-text">Kubernetes</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(18, 80)">
+      <rect width="138" height="28" rx="6" fill="url(#pill-bg)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="69" y="18" class="pill-text" fill="#bfdbfe">PostgreSQL / pgvector</text>
+    </g>
+    <g transform="translate(164, 80)">
+      <rect width="90" height="28" rx="6" fill="url(#pill-bg)" stroke="#34d399" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="45" y="18" class="pill-text" fill="#bbf7d0">Supabase</text>
+    </g>
+    <g transform="translate(262, 80)">
+      <rect width="144" height="28" rx="6" fill="url(#pill-bg)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="72" y="18" class="pill-text" fill="#fde68a">Google Cloud (GCP)</text>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 4: CORE LANGUAGES & TOOLING (BOTTOM-RIGHT) ==================== -->
+  <g transform="translate(450, 138)">
+    <rect x="2" y="2" width="426" height="124" rx="12" fill="url(#matrix-bg)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="2" y="2" width="426" height="124" rx="12" fill="none" stroke="url(#glow-purple)" stroke-width="0.8"/>
+
+    <circle cx="24" cy="24" r="4.5" fill="#a855f7" filter="url(#soft-glow)" class="dot-purple"/>
+    <text x="38" y="28" class="cat-title" fill="#c084fc">LANGUAGES &amp; DEV ECOSYSTEM</text>
+    <text x="406" y="27" font-family="'JetBrains Mono', monospace" font-size="10" fill="#d8b4fe" text-anchor="end">// 04_TOOLING</text>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(18, 44)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#38bdf8"/>
+      <text x="50" y="18" class="pill-text">Python</text>
+    </g>
+    <g transform="translate(110, 44)">
+      <rect width="68" height="28" rx="6" fill="url(#pill-bg)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#60a5fa"/>
+      <text x="41" y="18" class="pill-text">C++</text>
+    </g>
+    <g transform="translate(186, 44)">
+      <rect width="102" height="28" rx="6" fill="url(#pill-bg)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#38bdf8"/>
+      <text x="58" y="18" class="pill-text">TypeScript</text>
+    </g>
+    <g transform="translate(296, 44)">
+      <rect width="106" height="28" rx="6" fill="url(#pill-bg)" stroke="#f97316" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="12" cy="14" r="3" fill="#f97316"/>
+      <text x="60" y="18" class="pill-text">Git &amp; GitHub</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(18, 80)">
+      <rect width="144" height="28" rx="6" fill="url(#pill-bg)" stroke="#22c55e" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="72" y="18" class="pill-text" fill="#bbf7d0">GitHub Actions CI/CD</text>
+    </g>
+    <g transform="translate(170, 80)">
+      <rect width="84" height="28" rx="6" fill="url(#pill-bg)" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="42" y="18" class="pill-text" fill="#fef08a">Linux OS</text>
+    </g>
+    <g transform="translate(262, 80)">
+      <rect width="70" height="28" rx="6" fill="url(#pill-bg)" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="35" y="18" class="pill-text" fill="#a7f3d0">Pytest</text>
+    </g>
+    <g transform="translate(340, 80)">
+      <rect width="64" height="28" rx="6" fill="url(#pill-bg)" stroke="#67e8f9" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="32" y="18" class="pill-text" fill="#a5f3fc">Bash</text>
+    </g>
+  </g>
+</svg>

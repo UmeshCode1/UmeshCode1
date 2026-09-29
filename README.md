@@ -18,18 +18,18 @@
 
 <!-- ==================== PROFILE TELEMETRY COMMAND BAR ==================== -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=39ff14&label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=for-the-badge&color=00ff88&label=PROFILE+VIEWS" alt="Profile views"/>
   &nbsp;
-  <img src="https://img.shields.io/github/followers/UmeshCode1?style=flat-square&label=FOLLOWERS&color=00d5ff" alt="Followers"/>
+  <img src="https://img.shields.io/github/followers/UmeshCode1?style=for-the-badge&label=FOLLOWERS&color=00e5ff&logo=github&logoColor=white&labelColor=080e0c" alt="Followers"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1?tab=repositories">
-    <img src="https://img.shields.io/badge/PRs-81%20Authored-39ff14?style=flat-square&logo=git&logoColor=black" alt="Pull Requests"/>
+    <img src="https://img.shields.io/badge/PRs-81%20Authored-00ff88?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Pull Requests"/>
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00d5ff?style=flat-square&logo=github&logoColor=white" alt="Code Reviews"/>
+  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00e5ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1">
-    <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-39ff14?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
   </a>
 </div>
 
@@ -76,44 +76,9 @@
 <!-- ==================== CORE ARCHITECTURAL DOMAINS ==================== -->
 ### `// 02. CORE ENGINEERING DOMAINS & ARCHITECTURAL FOCUS`
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧠 Autonomous Agent Systems (MCP)
-- Architecting autonomous, tool-using agent fleets using Anthropic’s **Model Context Protocol (MCP)**.
-- Designing deterministic execution trees, self-healing state transitions, and context cache compression.
-- Building standard Streamable HTTP & Stdio client/server bridges for agentic tool use.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🔬 Deep Learning & Computer Vision Research
-- Benchmarking neural network failure boundaries under synthetic partial occlusions (0%–60%).
-- Translation- and scale-invariant spatial landmark tracking using MediaPipe and custom neural heads.
-- Real-time low-latency webcam inference pipelines (<14ms frame processing).
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ⚡ Distributed Systems & Backend Engineering
-- High-throughput asynchronous REST & streaming APIs engineered with **FastAPI** and **Python**.
-- Event-driven microservices with Docker containerization, Kubernetes coordination, and GCP deployment.
-- Relational schema modeling and vector search pipelines with **PostgreSQL** & **pgvector**.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🚀 Scientific Benchmarking & Optimization
-- Metaheuristic optimization algorithms applied to deep CNN architecture compression and pruning.
-- Empirical multi-objective Pareto front analysis across accuracy, inference latency, and energy.
-- Reproducible experiment tracking and hardware-aware runtime profiling.
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="assets/core-domains-bento.svg" width="100%" alt="Core Engineering Domains and Architectural Focus"/>
+</div>
 
 <br/>
 
@@ -121,19 +86,11 @@
 ### `// 03. ENGINEERING ARSENAL & SYSTEM STACK`
 
 <div align="center">
+  <img src="assets/tech-arsenal-matrix.svg" width="100%" alt="Engineering Arsenal and System Stack"/>
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Core Languages** | `Python` • `C++` • `TypeScript` • `JavaScript` • `SQL` • `Bash` • `HTML/CSS` |
-| **AI, Deep Learning & Vision** | `PyTorch` • `TensorFlow` • `MediaPipe` • `OpenCV` • `Scikit-Learn` • `ONNX Runtime` • `NumPy` |
-| **Agentic AI & Protocols** | `Model Context Protocol (MCP)` • `LLM Tooling` • `Agent Workflows` • `FastMCP` • `AsyncIO` |
-| **Backend & Cloud Infrastructure**| `FastAPI` • `Next.js` • `Docker` • `Kubernetes` • `Google Cloud Platform (GCP)` • `PostgreSQL` • `Supabase` |
-| **Engineering Tooling** | `Git` • `GitHub Actions CI/CD` • `Linux` • `Jest` • `Pytest` • `Vite` |
+  <br/><br/>
 
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,nextjs,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=9" alt="Technology stack"/>
-
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,nextjs,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=9" alt="Technology stack"/>
 </div>
 
 <br/>
@@ -143,17 +100,19 @@
 
 <div align="center">
 
-<a href="https://github.com/UmeshCode1">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=UmeshCode1&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&bg_color=00000000&title_color=00d5ff&icon_color=39ff14&text_color=c9ffd6&rank_icon=github" alt="GitHub stats"/>
+<a href="https://github.com/UmeshCode1" target="_blank">
+  <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api?username=UmeshCode1&show_icons=true&hide_border=false&border_radius=14&border_color=00ff88&include_all_commits=true&bg_color=080e0c&title_color=00e5ff&icon_color=00ff88&text_color=d1fae5&rank_icon=github" alt="GitHub stats"/>
 </a>
 &nbsp;
-<a href="https://github.com/UmeshCode1">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=00000000&title_color=00d5ff&text_color=c9ffd6" alt="Top languages"/>
+<a href="https://github.com/UmeshCode1" target="_blank">
+  <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=UmeshCode1&layout=compact&langs_count=8&hide_border=false&border_radius=14&border_color=00ff88&bg_color=080e0c&title_color=00e5ff&text_color=d1fae5" alt="Top languages"/>
 </a>
 
 <br/><br/>
 
-<img width="94%" src="https://streak-stats.demolab.com?user=UmeshCode1&hide_border=true&border_radius=12&background=00000000&stroke=39ff14&ring=39ff14&fire=39ff14&currStreakNum=00d5ff&sideNums=c9ffd6&currStreakLabel=39ff14&sideLabels=c9ffd6&dates=808080" alt="GitHub streak"/>
+<a href="https://github.com/UmeshCode1" target="_blank">
+  <img width="94%" src="https://streak-stats.demolab.com?user=UmeshCode1&hide_border=false&border_radius=14&border=00ff88&background=080e0c&stroke=00ff88&ring=00e5ff&fire=00ff88&currStreakNum=00e5ff&sideNums=d1fae5&currStreakLabel=00ff88&sideLabels=a7f3d0&dates=94a3b8" alt="GitHub streak"/>
+</a>
 
 </div>
 
@@ -189,19 +148,19 @@
 <div align="center">
 
 <a href="https://github.com/UmeshCode1" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-UmeshCode1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-UmeshCode1-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="GitHub"/>
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-00e5ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=080e0c" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="mailto:umesh.code1@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-Dispatch%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/Gmail-Dispatch%20Email-ef4444?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080e0c" alt="Gmail"/>
 </a>
 &nbsp;
 <a href="https://github.com/UmeshCode1?tab=repositories" target="_blank">
-  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-39ff14?style=for-the-badge&logo=git&logoColor=black" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-39ff14?style=for-the-badge&logo=git&logoColor=black&labelColor=080e0c" alt="Repositories"/>
 </a>
 
 </div>
@@ -232,4 +191,3 @@
 <div align="center">
   <sub>© Umesh Patel · AI &amp; ML Systems Engineer · Open Source Contributor</sub>
 </div>
-

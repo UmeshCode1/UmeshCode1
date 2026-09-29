@@ -21,17 +21,18 @@
     .cursor { animation: blink 1s steps(1) infinite; }
     .decrypt { animation: flicker 6.5s linear infinite; }
     .beam { animation: sweep 5s linear infinite; }
+    .term-text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace; font-size: 13.5px; font-weight: 600; }
   </style>
   <radialGradient id="vg" cx="50%" cy="35%" r="80%">
-    <stop offset="60%" stop-color="#0d0208" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000000" stop-opacity=".8"/>
+    <stop offset="60%" stop-color="#080e0c" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#020403" stop-opacity=".85"/>
   </radialGradient>
   <pattern id="scan2" width="4" height="4" patternUnits="userSpaceOnUse">
-    <rect width="4" height="1" fill="#000000" opacity=".3"/>
+    <rect width="4" height="1" fill="#000000" opacity=".12"/>
   </pattern>
   <linearGradient id="beamGrad" x1="0" x2="1" y1="0" y2="0">
     <stop offset="0%" stop-color="#39ff14" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#39ff14" stop-opacity=".10"/>
+    <stop offset="50%" stop-color="#39ff14" stop-opacity=".08"/>
     <stop offset="100%" stop-color="#39ff14" stop-opacity="0"/>
   </linearGradient>
   <clipPath id="cardClip">
@@ -39,7 +40,7 @@
   </clipPath>
 </defs>
 
-<rect x="3" y="3" width="674" height="384" rx="14" fill="#0d0208"/>
+<rect x="3" y="3" width="674" height="384" rx="14" fill="#080e0c"/>
 
 <g clip-path="url(#cardClip)">
   <rect width="680" height="390" fill="url(#vg)"/>
@@ -50,17 +51,17 @@
   <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="24" r="6" fill="#ffbd2e"/>
   <circle cx="64" cy="24" r="6" fill="#27c93f"/>
-  <text x="340.0" y="29" text-anchor="middle" font-family="ui-monospace, 'Courier New', monospace" font-size="13" fill="#39ff14" opacity=".55">root@umesh:~</text>
-  <line x1="0" y1="46" x2="680" y2="46" stroke="#39ff14" stroke-opacity=".25"/>
+  <text x="340.0" y="29" text-anchor="middle" class="term-text" fill="#00ff88" opacity=".75">root@umesh:~ (ai-systems-core)</text>
+  <line x1="0" y1="46" x2="680" y2="46" stroke="#00ff88" stroke-opacity=".25"/>
 
-  <text class="decrypt" x="34" y="72" font-family="ui-monospace, 'Courier New', monospace" font-size="14" fill="#8affa4">&gt; decrypting identity... <tspan fill="#39ff14">OK</tspan></text>
-  <text x="34" y="94" font-family="ui-monospace, 'Courier New', monospace" font-size="14" fill="#c9ffd6">$ cat profile.log</text>
+  <text class="decrypt term-text" x="34" y="74" fill="#6ee7b7">&gt; decrypting identity... <tspan fill="#00ff88" font-weight="700">OK</tspan></text>
+  <text x="34" y="96" class="term-text" fill="#a7f3d0">$ cat profile.log</text>
 
-  <text x="34" y="132" font-family="ui-monospace, 'Courier New', monospace" font-size="14" xml:space="preserve"><tspan x="34" dy="0"><tspan fill="#39ff14" opacity=".55">name: </tspan><tspan fill="#c9ffd6">Umesh Patel</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">role: </tspan><tspan fill="#c9ffd6">AI &amp; ML Systems Engineer</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">focus: </tspan><tspan fill="#c9ffd6">Autonomous Agents, Distributed AI &amp; Systems Research</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">stacks: </tspan><tspan fill="#c9ffd6">Python, PyTorch, TensorFlow, Scikit-Learn, FastAPI, GCP, Docker</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">research: </tspan><tspan fill="#c9ffd6">MediaPipe Occlusion Benchmarking, Computer Vision Invariance</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">agentic: </tspan><tspan fill="#c9ffd6">Model Context Protocol (MCP), Autonomous Multi-Agent Toolsets</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">metrics: </tspan><tspan fill="#c9ffd6">81 PRs Authored | 118 Code Reviews | Contributor @GitHub @Microsoft</tspan></tspan><tspan x="34" dy="26"><tspan fill="#39ff14" opacity=".55">fun fact: </tspan><tspan fill="#c9ffd6">Turns chai into code and raw data into neural insights ☕</tspan></tspan></text>
+  <text x="34" y="132" class="term-text" xml:space="preserve"><tspan x="34" dy="0"><tspan fill="#00ff88" opacity=".7">name: </tspan><tspan fill="#f0fdf4">Umesh Patel</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">role: </tspan><tspan fill="#f0fdf4">AI &amp; ML Systems Engineer</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">focus: </tspan><tspan fill="#f0fdf4">Autonomous Agents, Distributed AI &amp; Systems Research</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">stacks: </tspan><tspan fill="#f0fdf4">Python, PyTorch, TensorFlow, Scikit-Learn, FastAPI, GCP, Docker</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">research: </tspan><tspan fill="#f0fdf4">MediaPipe Occlusion Benchmarking, Computer Vision Invariance</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">agentic: </tspan><tspan fill="#f0fdf4">Model Context Protocol (MCP), Autonomous Multi-Agent Toolsets</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">metrics: </tspan><tspan fill="#f0fdf4">81 PRs Authored | 118 Code Reviews | Contributor @GitHub @Microsoft</tspan></tspan><tspan x="34" dy="25"><tspan fill="#00ff88" opacity=".7">motto: </tspan><tspan fill="#67e8f9">Make this Zindagi full of wonders and extraordinary moments ✨</tspan></tspan></text>
 
-  <text x="34" y="348" font-family="ui-monospace, 'Courier New', monospace" font-size="14" fill="#c9ffd6">root@umesh:~$ <tspan class="cursor" fill="#39ff14">&#9608;</tspan></text>
+  <text x="34" y="352" class="term-text" fill="#6ee7b7">root@umesh:~$ <tspan class="cursor" fill="#00ff88">&#9608;</tspan></text>
 </g>
 
-<rect x="1.5" y="1.5" width="677" height="387" rx="14" fill="none" stroke="#39ff14" stroke-width="1.4"/>
-<rect class="border-glow" x="1.5" y="1.5" width="677" height="387" rx="14" fill="none" stroke="#39ff14"/>
+<rect x="1.5" y="1.5" width="677" height="387" rx="14" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.6"/>
+<rect class="border-glow" x="1.5" y="1.5" width="677" height="387" rx="14" fill="none" stroke="#00d5ff"/>
 </svg>
