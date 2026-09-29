@@ -14,7 +14,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Initialize dist directory
+        run: mkdir -p dist && sudo chown -R $USER:$USER dist
+
+      - name: Generate Pacman Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: UmeshCode1
+
+      - name: Fix permissions before snake
+        run: sudo chown -R $USER:$USER dist
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -25,10 +36,8 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg
             dist/github-contribution-grid-snake.gif
 
-      - name: Generate Pacman Contribution Graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: UmeshCode1
+      - name: Fix permissions for deploy
+        run: sudo chown -R $USER:$USER dist
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
