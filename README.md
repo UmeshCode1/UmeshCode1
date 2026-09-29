@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/UmeshCode1">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=3000&pause=1000&color=00FFB2&center=true&vCenter=true&width=750&height=70&lines=Welcome+to+My+Tech+Universe+🌌;AI+%26+ML+Enthusiast+🤖;Full+Stack+Developer+💻;Innovation+Seeker+🚀" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00FFB2&center=true&vCenter=true&width=800&height=70&lines=Welcome+to+My+Tech+Universe+🌌;AI+%26+Deep+Learning+Enthusiast+🤖;Open+Source+Contributor+%40GitHub+%40Microsoft+🚀;Full+Stack+%26+Agentic+Systems+💻;Turning+Chai+Into+Code+☕" alt="Typing SVG" />
   </a>
 </div>
 
@@ -17,13 +17,29 @@
     <img src="https://img.shields.io/github/followers/UmeshCode1?label=Followers&style=flat-square&color=00d5ff" alt="Followers" />
   </a>
   &nbsp;
+  <a href="https://github.com/UmeshCode1?tab=repositories">
+    <img src="https://img.shields.io/badge/Pull%20Requests-81%20Authored-00ff9d?style=flat-square&logo=git&logoColor=black" alt="Pull Requests" />
+  </a>
+  &nbsp;
   <a href="https://github.com/UmeshCode1">
     <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source" />
   </a>
 </div>
 
+<br />
+
+<!-- Open Source Highlights -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <a href="https://github.com/github/docs/pull/46118"><img src="https://img.shields.io/badge/GitHub-Docs%20Contributor-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
+  <a href="https://github.com/microsoft/api-guidelines/pull/596"><img src="https://img.shields.io/badge/Microsoft-API%20Guidelines-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/></a>&nbsp;
+  <a href="https://github.com/googleapis/mcp-toolbox/issues/4084"><img src="https://img.shields.io/badge/Google-MCP%20Toolbox-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>&nbsp;
+  <a href="https://github.com/OpenMind/OM1/pull/2694"><img src="https://img.shields.io/badge/OpenMind-OM1%20HAL%20(Merged)-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/></a>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
 </div>
 
 <!-- About Me Section -->
@@ -66,22 +82,19 @@ me.say_hi()
 <!-- Tech Stack -->
 <h2>
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30">
-  Tech Stack & Currently Learning
+  Tech Stack & Tooling
 </h2>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg" alt="keras" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="45" height="45"/>
-</p>
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,fastapi,docker,gcp,git,github,postgres,linux,bash&theme=dark" alt="Tech Stack" />
+  </a>
+</div>
+
+<br />
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
 </div>
 
 <!-- GitHub Stats Section -->
@@ -108,6 +121,13 @@ me.say_hi()
 <p align="center">
   <img width="85%" src="https://streak-stats.demolab.com?user=UmeshCode1&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
 </p>
+
+<!-- Dynamic Quote -->
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
+</div>
+
+<br />
 
 <!-- Trophies -->
 <h3 align="center">
@@ -143,8 +163,10 @@ me.say_hi()
   </picture>
 </div>
 
+<br />
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header" width="100%"/>
 </div>
 
 <!-- Connect With Me -->
@@ -153,27 +175,29 @@ me.say_hi()
   Let's Connect!
 </h2>
 
-<p align="center">
+<div align="center">
   <a href="https://linkedin.com/in/umesh-patel-5647b42a4" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="50"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;&nbsp;
   <a href="mailto:umesh.code1@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google.svg" alt="Gmail" height="35" width="50"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/UmeshCode1" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="35" width="50"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://wa.me/7974389476" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp" height="35" width="50"/>
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/nycto_phile.i" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="35" width="50"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-</p>
+</div>
+
+<br />
 
 <!-- Footer -->
 <div align="center">
