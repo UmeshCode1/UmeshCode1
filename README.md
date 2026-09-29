@@ -165,65 +165,6 @@ Iterate
 
 <br/>
 
-<!-- ==================== FEATURED WORK ==================== -->
-## Featured Work
-
-### 🔬 CNN Optimization Benchmark
-
-**A research-oriented workstation for empirical benchmarking of deep CNN compression and optimization strategies.**
-
-- Multi-objective evaluation across accuracy, latency, model size and energy
-- Metaheuristic optimization experiments
-- Pareto analysis and convergence telemetry
-- Hardware-aware profiling
-- React + TypeScript frontend with FastAPI backend
-- Live deployment: **[cnn.umeshlabs.in](https://cnn.umeshlabs.in/)**
-
-**Repository:** [UmeshCode1/cnn-optimization-benchmark](https://github.com/UmeshCode1/cnn-optimization-benchmark)
-
----
-
-### 🧠 AIML Club OCT — CONNECT
-
-**A digital platform for organizing and connecting an AI/ML student community.**
-
-Designed around events, members, operations, resources, communication and future club workflows.
-
-**Repository:** [UmeshCode1/Connect-AiML-Club-OCT](https://github.com/UmeshCode1/Connect-AiML-Club-OCT)
-
----
-
-### 👁️ Face Recognition Attendance System
-
-A computer-vision project for identity recognition and automated attendance workflows.
-
-**Repository:** [UmeshCode1/FACE_REC-ATT_SYSTEM](https://github.com/UmeshCode1/FACE_REC-ATT_SYSTEM)
-
----
-
-### 🏫 AIML Hub
-
-A web platform exploring a more structured digital experience for AI/ML learning and community resources.
-
-**Repository:** [UmeshCode1/aiml-hub](https://github.com/UmeshCode1/aiml-hub)
-
----
-
-### 🤖 Aetheris AI
-
-A GitHub-focused AI development companion concept built around code analysis, debugging, automation and knowledge access.
-
-**Repository:** [UmeshCode1/Aetheris-AI](https://github.com/UmeshCode1/Aetheris-AI)
-
-<br/>
-
-<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
-<div align="center">
-  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
-</div>
-
-<br/>
-
 <!-- ==================== ENGINEERING STACK ==================== -->
 ## My Engineering Stack
 
@@ -325,7 +266,7 @@ I also spend time building and organizing technical communities, shaping develop
 
 That includes work around:
 
-**AI communities · student technology · research platforms · events · automation · developer tooling · product design**
+**AI communities · open research platforms · developer ecosystems · automation · distributed tooling · product engineering**
 
 <br/>
 
