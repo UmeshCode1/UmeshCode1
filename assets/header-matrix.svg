@@ -26,11 +26,11 @@
     .title-main { animation: hueshift 5.2s ease-in-out infinite; }
     .subtitle { animation: flicker 7s linear infinite; }
     .cursor { animation: blink 1s steps(1) infinite; }
-    @keyframes rainbow-bg {
-      0%   { filter: hue-rotate(0deg); }
-      100% { filter: hue-rotate(360deg); }
+    @keyframes matrix-hue {
+      0%, 100% { filter: hue-rotate(0deg); }
+      50% { filter: hue-rotate(42deg); }
     }
-    .rain-bg { animation: rainbow-bg 9s linear infinite; }
+    .rain-bg { animation: matrix-hue 6s ease-in-out infinite; }
   </style>
   <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
     <stop offset="55%" stop-color="#0d0208" stop-opacity="0"/>

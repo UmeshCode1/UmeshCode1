@@ -1,0 +1,173 @@
+<svg viewBox="0 0 880 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Umesh Patel Upstream Open Source Impact">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="upstream-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1410"/>
+      <stop offset="50%" stop-color="#050a08"/>
+      <stop offset="100%" stop-color="#020504"/>
+    </linearGradient>
+
+    <!-- Row Background -->
+    <linearGradient id="row-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1f17"/>
+      <stop offset="100%" stop-color="#08140f"/>
+    </linearGradient>
+
+    <!-- Laser Borders -->
+    <linearGradient id="neon-cyan-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseBeacon {
+        0%, 100% { opacity: 0.7; r: 3.5; }
+        50% { opacity: 1; r: 5; filter: drop-shadow(0 0 5px #00ff88); }
+      }
+      .beacon { animation: pulseBeacon 2.6s ease-in-out infinite; }
+      .repo-name { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 700; fill: #67e8f9; }
+      .repo-desc { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #cbd5e1; }
+      .eco-tag { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; text-anchor: middle; }
+      .status-pill { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-weight: 700; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Container Base -->
+  <rect x="2" y="2" width="876" height="336" rx="14" fill="url(#upstream-bg)" stroke="#00ff88" stroke-width="1.2" stroke-opacity="0.4"/>
+  <rect x="2" y="2" width="876" height="336" rx="14" fill="none" stroke="url(#neon-cyan-green)" stroke-width="0.8"/>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(24, 20)">
+    <circle cx="6" cy="6" r="4" fill="#00ff88" class="beacon"/>
+    <text x="18" y="10" font-family="'Orbitron', 'Inter', monospace" font-size="13" font-weight="700" fill="#00ff88" letter-spacing="1">
+      UPSTREAM OPEN SOURCE IMPACT &amp; VERIFIED CONTRIBUTIONS
+    </text>
+    <text x="828" y="10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6ee7b7" text-anchor="end">
+      TIER-1 FOUNDATION AUDITS
+    </text>
+  </g>
+
+  <!-- ==================== ROW 1: GITHUB (DOCS) ==================== -->
+  <g transform="translate(20, 52)">
+    <rect width="840" height="48" rx="8" fill="url(#row-bg)" stroke="#1b382b" stroke-width="1"/>
+    
+    <!-- Ecosystem Badge -->
+    <rect x="12" y="12" width="76" height="24" rx="4" fill="#181717" stroke="#334155" stroke-width="0.8"/>
+    <text x="50" y="27" class="eco-tag" fill="#f8fafc">GitHub</text>
+
+    <!-- Repo Name & Link -->
+    <text x="100" y="29" class="repo-name">github/docs</text>
+
+    <!-- Description -->
+    <text x="210" y="29" class="repo-desc">Documented async profile achievement batch queue latency window</text>
+
+    <!-- PR Tag -->
+    <rect x="670" y="13" width="56" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="698" y="27" class="status-pill" fill="#6ee7b7">#46118</text>
+
+    <!-- Status Badge -->
+    <rect x="734" y="13" width="94" height="22" rx="4" fill="#064e3b" fill-opacity="0.6" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="781" y="27" class="status-pill" fill="#a7f3d0">🟢 CI PASSED</text>
+  </g>
+
+  <!-- ==================== ROW 2: MICROSOFT (API GUIDELINES) ==================== -->
+  <g transform="translate(20, 108)">
+    <rect width="840" height="48" rx="8" fill="url(#row-bg)" stroke="#1b382b" stroke-width="1"/>
+
+    <!-- Ecosystem Badge -->
+    <rect x="12" y="12" width="76" height="24" rx="4" fill="#0078d4" fill-opacity="0.25" stroke="#0284c7" stroke-width="0.8"/>
+    <text x="50" y="27" class="eco-tag" fill="#38bdf8">Microsoft</text>
+
+    <!-- Repo Name -->
+    <text x="100" y="29" class="repo-name">api-guidelines</text>
+
+    <!-- Description -->
+    <text x="210" y="29" class="repo-desc">REST API guideline topology validation &amp; spec cross-referencing</text>
+
+    <!-- PR Tag -->
+    <rect x="670" y="13" width="56" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="698" y="27" class="status-pill" fill="#6ee7b7">#596</text>
+
+    <!-- Status Badge -->
+    <rect x="734" y="13" width="94" height="22" rx="4" fill="#064e3b" fill-opacity="0.6" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="781" y="27" class="status-pill" fill="#a7f3d0">🟢 CLA PASSED</text>
+  </g>
+
+  <!-- ==================== ROW 3: OPENMIND (OM1 ROBOTICS) ==================== -->
+  <g transform="translate(20, 164)">
+    <rect width="840" height="48" rx="8" fill="url(#row-bg)" stroke="#1b382b" stroke-width="1"/>
+
+    <!-- Ecosystem Badge -->
+    <rect x="12" y="12" width="76" height="24" rx="4" fill="#581c87" fill-opacity="0.3" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="50" y="27" class="eco-tag" fill="#c084fc">OpenMind</text>
+
+    <!-- Repo Name -->
+    <text x="100" y="29" class="repo-name">OM1</text>
+
+    <!-- Description -->
+    <text x="210" y="29" class="repo-desc">Robot Hardware Abstraction Layer (HAL) sensor bus interfaces</text>
+
+    <!-- PR Tag -->
+    <rect x="670" y="13" width="56" height="22" rx="4" fill="#3b0764" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="698" y="27" class="status-pill" fill="#d8b4fe">#2694</text>
+
+    <!-- Status Badge -->
+    <rect x="734" y="13" width="94" height="22" rx="4" fill="#3b0764" fill-opacity="0.6" stroke="#c084fc" stroke-width="0.8"/>
+    <text x="781" y="27" class="status-pill" fill="#e9d5ff">🟣 MERGED</text>
+  </g>
+
+  <!-- ==================== ROW 4: GOOGLE (MCP TOOLBOX) ==================== -->
+  <g transform="translate(20, 220)">
+    <rect width="840" height="48" rx="8" fill="url(#row-bg)" stroke="#1b382b" stroke-width="1"/>
+
+    <!-- Ecosystem Badge -->
+    <rect x="12" y="12" width="76" height="24" rx="4" fill="#ea4335" fill-opacity="0.2" stroke="#f87171" stroke-width="0.8"/>
+    <text x="50" y="27" class="eco-tag" fill="#fca5a5">Google</text>
+
+    <!-- Repo Name -->
+    <text x="100" y="29" class="repo-name">mcp-toolbox</text>
+
+    <!-- Description -->
+    <text x="210" y="29" class="repo-desc">Model Context Protocol tool schema parsing &amp; integration audit</text>
+
+    <!-- Issue Tag -->
+    <rect x="670" y="13" width="56" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="698" y="27" class="status-pill" fill="#6ee7b7">#4084</text>
+
+    <!-- Status Badge -->
+    <rect x="734" y="13" width="94" height="22" rx="4" fill="#064e3b" fill-opacity="0.6" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="781" y="27" class="status-pill" fill="#a7f3d0">🟢 TRIAGED</text>
+  </g>
+
+  <!-- ==================== ROW 5: PUBLIC APIS (MCP REGISTRY) ==================== -->
+  <g transform="translate(20, 276)">
+    <rect width="840" height="48" rx="8" fill="url(#row-bg)" stroke="#1b382b" stroke-width="1"/>
+
+    <!-- Ecosystem Badge -->
+    <rect x="12" y="12" width="76" height="24" rx="4" fill="#065f46" fill-opacity="0.3" stroke="#10b981" stroke-width="0.8"/>
+    <text x="50" y="27" class="eco-tag" fill="#6ee7b7">Public APIs</text>
+
+    <!-- Repo Name -->
+    <text x="100" y="29" class="repo-name">public-apis</text>
+
+    <!-- Description -->
+    <text x="210" y="29" class="repo-desc">Standardized Model Context Protocol (MCP) server registry</text>
+
+    <!-- PR Tag -->
+    <rect x="670" y="13" width="56" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="698" y="27" class="status-pill" fill="#6ee7b7">#7580</text>
+
+    <!-- Status Badge -->
+    <rect x="734" y="13" width="94" height="22" rx="4" fill="#064e3b" fill-opacity="0.6" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="781" y="27" class="status-pill" fill="#a7f3d0">🟢 VALIDATED</text>
+  </g>
+</svg>

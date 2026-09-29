@@ -29,7 +29,7 @@
   <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00e5ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1">
-    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-39ff14?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-00ff88?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
   </a>
 </div>
 
@@ -60,16 +60,20 @@
 ### `// 01. UPSTREAM OPEN SOURCE IMPACT & VERIFIED CONTRIBUTIONS`
 
 <div align="center">
-
-| Ecosystem | Repository | Contribution Focus | Upstream Status |
-| :--- | :--- | :--- | :---: |
-| **GitHub** | [`github/docs`](https://github.com/github/docs/pull/46118) | Documented async profile achievement batch queue latency window ([#46118](https://github.com/github/docs/pull/46118)) | `🟢 Open / CI Passed` |
-| **Microsoft** | [`microsoft/api-guidelines`](https://github.com/microsoft/api-guidelines/pull/596) | REST API guideline topology validation & spec cross-referencing ([#596](https://github.com/microsoft/api-guidelines/pull/596)) | `🟢 Open / CLA Passed` |
-| **OpenMind** | [`OpenMind/OM1`](https://github.com/OpenMind/OM1/pull/2694) | Robot Hardware Abstraction Layer (HAL) sensor bus interfaces ([#2694](https://github.com/OpenMind/OM1/pull/2694)) | `🟣 Merged into Main` |
-| **Google** | [`googleapis/mcp-toolbox`](https://github.com/googleapis/mcp-toolbox/issues/4084) | Model Context Protocol tool schema parsing & integration audit ([#4084](https://github.com/googleapis/mcp-toolbox/issues/4084)) | `🟢 Upstream Triage` |
-| **Public APIs** | [`public-apis/public-apis`](https://github.com/public-apis/public-apis/pull/7580) | Standardized Model Context Protocol (MCP) server registry ([#7580](https://github.com/public-apis/public-apis/pull/7580)) | `🟢 Open / Validated` |
-
+  <img src="assets/upstream-impact-bento.svg" width="100%" alt="Upstream Open Source Impact and Verified Contributions"/>
 </div>
+
+<details>
+<summary><b>🔗 Direct Upstream PR &amp; Audit Reference Links</b></summary>
+<br/>
+
+- 🟢 **GitHub** — [`github/docs#46118`](https://github.com/github/docs/pull/46118) : Documented async profile achievement batch queue latency window *(CI Passed)*
+- 🟢 **Microsoft** — [`microsoft/api-guidelines#596`](https://github.com/microsoft/api-guidelines/pull/596) : REST API guideline topology validation &amp; spec cross-referencing *(CLA Passed)*
+- 🟣 **OpenMind** — [`OpenMind/OM1#2694`](https://github.com/OpenMind/OM1/pull/2694) : Robot Hardware Abstraction Layer (HAL) sensor bus interfaces *(Merged to Main)*
+- 🟢 **Google** — [`googleapis/mcp-toolbox#4084`](https://github.com/googleapis/mcp-toolbox/issues/4084) : Model Context Protocol tool schema parsing &amp; integration audit *(Upstream Triage)*
+- 🟢 **Public APIs** — [`public-apis/public-apis#7580`](https://github.com/public-apis/public-apis/pull/7580) : Standardized Model Context Protocol (MCP) server registry *(Validated)*
+
+</details>
 
 <br/>
 
@@ -90,7 +94,7 @@
 
   <br/><br/>
 
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,nextjs,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&perline=9" alt="Technology stack"/>
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,pytorch,tensorflow,opencv,fastapi,nextjs,postgres,supabase,docker,kubernetes,gcp,git,github,linux,bash&theme=dark&perline=9" alt="Technology stack"/>
 </div>
 
 <br/>
@@ -156,11 +160,11 @@
 </a>
 &nbsp;
 <a href="mailto:umesh.code1@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-Dispatch%20Email-ef4444?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080e0c" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/Gmail-Dispatch%20Email-00ff88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080e0c" alt="Gmail"/>
 </a>
 &nbsp;
 <a href="https://github.com/UmeshCode1?tab=repositories" target="_blank">
-  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-39ff14?style=for-the-badge&logo=git&logoColor=black&labelColor=080e0c" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Repositories"/>
 </a>
 
 </div>
@@ -189,5 +193,5 @@
 <br/>
 
 <div align="center">
-  <sub>© Umesh Patel · AI &amp; ML Systems Engineer · Open Source Contributor</sub>
+  <sub><code>[ SYSTEM STATUS : ONLINE 24/7 ] ✦ [ 81 PRs AUTHORED ] ✦ [ 118 REVIEWS ] ✦ [ RESEARCH &amp; AGENTIC SYSTEMS ]</code></sub>
 </div>
