@@ -1,32 +1,95 @@
-<!-- PROFILE README | UmeshCode1 -->
-
+<!-- ==================== MATRIX RAIN CYBER HEADER ==================== -->
 <div align="center">
-
-# Umesh Patel
-
-### AI/ML Engineer · Research Builder · Systems & Product Engineer
-
-<p>
-  <a href="https://github.com/UmeshCode1">
-    <img src="https://img.shields.io/badge/GitHub-UmeshCode1-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/umesh-patel-5647b42a4">
-    <img src="https://img.shields.io/badge/LinkedIn-Umesh%20Patel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:umesh.code1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=161B22&label=PROFILE+VIEWS" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/UmeshCode1?style=flat-square&label=FOLLOWERS&color=161B22" alt="Followers"/>
-</p>
-
+  <img src="assets/header-matrix.svg" width="100%" alt="Umesh Patel - Matrix Cyber Header"/>
 </div>
 
----
+<br/>
 
+<!-- ==================== PAC-MAN CONTRIBUTION GRAPH ==================== -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating Umesh's contribution graph" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/pacman-contribution-graph-dark.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+<!-- ==================== PROFILE TELEMETRY BADGES ==================== -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=UmeshCode1&style=flat-square&color=39ff14&label=PROFILE+VIEWS" alt="Profile views"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/UmeshCode1?style=flat-square&label=FOLLOWERS&color=00d5ff" alt="Followers"/>
+  &nbsp;
+  <a href="https://github.com/UmeshCode1?tab=repositories">
+    <img src="https://img.shields.io/badge/PRs-81%20Authored-39ff14?style=flat-square&logo=git&logoColor=black" alt="Pull Requests"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/UmeshCode1">
+    <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source"/>
+  </a>
+</div>
+
+<br/>
+
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== CRT SCANLINE TERMINAL ==================== -->
+<div align="center">
+  <img src="assets/whoami-terminal.svg" width="100%" alt="whoami terminal"/>
+</div>
+
+<br/>
+
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== BENTO ARCHITECTURE & RESEARCH ==================== -->
+<div align="center">
+  <img src="assets/bento-architecture.svg" alt="Bento Architecture" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== OPEN SOURCE LEADERSHIP ==================== -->
+<div align="center">
+  <a href="https://github.com/github/docs/pull/46118" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Docs%20Contributor%20(%2346118)-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/microsoft/api-guidelines/pull/596" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft-API%20Guidelines%20(%23596)-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/googleapis/mcp-toolbox/issues/4084" target="_blank">
+    <img src="https://img.shields.io/badge/Google-MCP%20Toolbox%20(%234084)-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/OpenMind/OM1/pull/2694" target="_blank">
+    <img src="https://img.shields.io/badge/OpenMind-OM1%20HAL%20(Merged)-8A2BE2?style=for-the-badge&logo=probot&logoColor=white"/>
+  </a>
+</div>
+
+<br/>
+
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== ABOUT & DIRECTION ==================== -->
 <table>
 <tr>
 <td width="58%" valign="top">
@@ -39,9 +102,9 @@ My work ranges from experimental benchmarking and computer vision to developer t
 
 Currently focused on:
 
-- Deep Learning & Computer Vision
+- Deep Learning &amp; Computer Vision
 - AI/ML experimentation and benchmarking
-- Agentic systems and tool-driven workflows
+- Agentic systems and tool-driven workflows (MCP)
 - Cloud-native application architecture
 - Research-to-product engineering
 
@@ -68,15 +131,16 @@ Deploy
 Iterate
 ```
 
-> Build things that can be tested,
+> Build things that can be tested,  
 > measured, improved, and actually used.
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
+<!-- ==================== WHAT I BUILD ==================== -->
 ## What I Build
 
 <div align="center">
@@ -92,8 +156,16 @@ Iterate
 
 </div>
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== FEATURED WORK ==================== -->
 ## Featured Work
 
 ### 🔬 CNN Optimization Benchmark
@@ -143,8 +215,16 @@ A GitHub-focused AI development companion concept built around code analysis, de
 
 **Repository:** [UmeshCode1/Aetheris-AI](https://github.com/UmeshCode1/Aetheris-AI)
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== ENGINEERING STACK ==================== -->
 ## My Engineering Stack
 
 <div align="center">
@@ -153,8 +233,16 @@ A GitHub-focused AI development companion concept built around code analysis, de
 
 </div>
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== ENGINEERING MINDSET ==================== -->
 ## Engineering Mindset
 
 <div align="center">
@@ -175,8 +263,16 @@ Correctness    →    Measurement    →    Reliability
      └──────── Iteration ──────┘
 ```
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== GITHUB TELEMETRY ==================== -->
 ## GitHub Telemetry
 
 <div align="center">
@@ -194,8 +290,9 @@ Correctness    →    Measurement    →    Reliability
 
 </div>
 
----
+<br/>
 
+<!-- ==================== CONTRIBUTION FLOW ==================== -->
 ## Contribution Flow
 
 <div align="center">
@@ -204,8 +301,24 @@ Correctness    →    Measurement    →    Reliability
 
 </div>
 
----
+<br/>
 
+<!-- ==================== ALTERNATIVE SNAKE GRID ==================== -->
+<details>
+<summary><b>🐍 View Classic Contribution Snake Grid</b></summary>
+<br/>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/UmeshCode1/UmeshCode1/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</div>
+</details>
+
+<br/>
+
+<!-- ==================== BEYOND THE CODE ==================== -->
 ## Beyond the Code
 
 I also spend time building and organizing technical communities, shaping developer experiences, and turning ideas into systems that other people can use.
@@ -214,8 +327,16 @@ That includes work around:
 
 **AI communities · student technology · research platforms · events · automation · developer tooling · product design**
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== CONNECT ==================== -->
 ## Connect
 
 <div align="center">
@@ -223,9 +344,11 @@ That includes work around:
 <a href="https://github.com/UmeshCode1">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
+&nbsp;
 <a href="https://linkedin.com/in/umesh-patel-5647b42a4">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
+&nbsp;
 <a href="mailto:umesh.code1@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
@@ -238,8 +361,16 @@ That includes work around:
 
 </div>
 
----
+<br/>
 
+<!-- ==================== ANIMATED LASER DIVIDER ==================== -->
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ==================== FOOTER ==================== -->
 <div align="center">
 
 ### Building today. Measuring tomorrow. Rewriting the limits in between.
