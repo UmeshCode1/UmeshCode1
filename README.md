@@ -117,64 +117,8 @@
 
 <br/>
 
-<!-- ==================== RESEARCH WORKSTATIONS & FLAGSHIP PLATFORMS ==================== -->
-### `// 03. RESEARCH WORKSTATIONS & FLAGSHIP PLATFORMS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔬 CNN Optimization Benchmark Workstation
-**Scientific research laboratory platform for benchmarking deep CNN compression.**
-- Multi-objective evaluation across accuracy, latency, model size, and energy
-- Metaheuristic hyperparameter optimization & Pareto telemetry
-- Hardware-aware runtime profiling with interactive visualization
-- **Live Deployment:** [cnn.umeshlabs.in](https://cnn.umeshlabs.in/)
-- **Repository:** [`UmeshCode1/cnn-optimization-benchmark`](https://github.com/UmeshCode1/cnn-optimization-benchmark)
-- **Stack:** `Python` `PyTorch` `FastAPI` `React` `TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-#### 👁️ Computer Vision Occlusion Benchmark
-**Modular computer vision framework evaluating neural failure boundaries.**
-- Rigorous stress testing of landmark detection under 0%–60% synthetic occlusion masks
-- Translation and scale-invariant normalization for robust spatial geometry
-- Sub-14ms real-time webcam inference loop
-- **Repository:** [`UmeshCode1/hand-gesture-occlusion-benchmark`](https://github.com/UmeshCode1/hand-gesture-occlusion-benchmark)
-- **Stack:** `MediaPipe` `OpenCV` `PyTorch` `Scikit-Learn` `Python`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ⚡ Model Context Protocol (MCP) Agent Core
-**Ecosystem framework for scalable tool discovery and agent orchestration.**
-- Dynamic tool registration, schema enforcement, and structured LLM tool calling
-- Standardized Stdio & HTTP streaming RPC interfaces
-- Integrated with top developer tools and open-source MCP repositories
-- **Repository:** [`UmeshCode1/lets-connect`](https://github.com/UmeshCode1/lets-connect)
-- **Stack:** `Python` `FastMCP` `Docker` `AsyncIO`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🚛 Enterprise Operations & Dispatch Telematics
-**Multi-stop dispatch logistics and operational driver telematics engine.**
-- Real-time fleet tracking, geofenced route sequencing, and delivery dispatch
-- High-reliability synchronization between native mobile endpoints and cloud backends
-- Distributed telemetry logging and automated job dispatch workflows
-- **Stack:** `FastAPI` `PostgreSQL` `Docker` `Android Telematics`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 <!-- ==================== ENGINEERING ARSENAL ==================== -->
-### `// 04. ENGINEERING ARSENAL & SYSTEM STACK`
+### `// 03. ENGINEERING ARSENAL & SYSTEM STACK`
 
 <div align="center">
 
@@ -195,7 +139,7 @@
 <br/>
 
 <!-- ==================== TELEMETRY & ACTIVITY METRICS ==================== -->
-### `// 05. TELEMETRY & ACTIVITY METRICS`
+### `// 04. TELEMETRY & ACTIVITY METRICS`
 
 <div align="center">
 
@@ -231,7 +175,7 @@
 <br/>
 
 <!-- ==================== ENGINEERING PHILOSOPHY ==================== -->
-### `// 06. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
+### `// 05. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
 
 <div align="center">
 
@@ -250,7 +194,7 @@
 <br/>
 
 <!-- ==================== GLOBAL DISPATCH & CONNECT ==================== -->
-### `// 07. GLOBAL DISPATCH & NETWORK`
+### `// 06. GLOBAL DISPATCH & NETWORK`
 
 <div align="center">
 
