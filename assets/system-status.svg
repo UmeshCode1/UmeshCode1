@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 50" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bar-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a101d"/>
+      <stop offset="50%" stop-color="#070a12"/>
+      <stop offset="100%" stop-color="#0a101d"/>
+    </linearGradient>
+
+    <filter id="status-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes beaconPing {
+        0% { r: 4; opacity: 1; stroke-width: 1.5; }
+        100% { r: 12; opacity: 0; stroke-width: 0.5; }
+      }
+      @keyframes sweepLight {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(880px); }
+      }
+      @keyframes statusBreathe {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; filter: drop-shadow(0 0 5px rgba(57,255,20,0.5)); }
+      }
+      .cursor-blink {
+        animation: blinkCursor 0.9s steps(1) infinite;
+      }
+      .beacon-ring {
+        animation: beaconPing 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .status-text {
+        animation: statusBreathe 3.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="876" height="46" rx="8" fill="url(#bar-bg)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="876" height="46" rx="8" fill="none" stroke="#39ff14" stroke-width="1" opacity="0.35"/>
+
+  <!-- Left: Live Status Beacon -->
+  <circle cx="28" cy="25" r="4.5" fill="#39ff14" filter="url(#status-glow)"/>
+  <circle cx="28" cy="25" r="4.5" fill="none" stroke="#39ff14" class="beacon-ring"/>
+
+  <!-- Center Text -->
+  <text class="status-text" x="48" y="30" font-family="'JetBrains Mono', 'Segoe UI Mono', monospace" font-size="12" font-weight="600" fill="#c9ffd6" letter-spacing="1">
+    SYSTEM STATUS: <tspan fill="#39ff14">ONLINE</tspan> // 81 PRs AUTHORED // 118 REVIEWS // ACTIVE IN RESEARCH &amp; AGENTIC SYSTEMS
+  </text>
+  <text class="cursor-blink" x="788" y="30" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#39ff14">▌</text>
+
+  <!-- Right: Status Tag -->
+  <rect x="800" y="14" width="62" height="22" rx="4" fill="#111827" stroke="#00d5ff" stroke-width="0.8"/>
+  <text x="831" y="29" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#00d5ff" letter-spacing="0.5">NOMINAL</text>
+</svg>

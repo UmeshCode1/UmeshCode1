@@ -178,17 +178,7 @@
 ### `// 05. ENGINEERING PHILOSOPHY: RESEARCH ➔ SYSTEMS ➔ IMPACT`
 
 <div align="center">
-
-```text
-┌────────────────┐      ┌────────────────┐      ┌────────────────┐
-│   Hypothesis   │ ───▶ │ Implementation │ ───▶ │   Benchmark    │
-└────────────────┘      └────────────────┘      └────────────────┘
-        ▲                                                │
-        └────────────── [ System Hardening ] ────────────┘
-```
-
-> **"Research tells me what works. Engineering makes it reliable. Product makes it useful."**
-
+  <img src="assets/engineering-loop.svg" alt="Engineering Philosophy Loop" width="100%"/>
 </div>
 
 <br/>
@@ -227,10 +217,8 @@
 
 <!-- ==================== MINIMALIST CYBER FOOTER ==================== -->
 <div align="center">
-
-```text
-[ SYSTEM STATUS: ONLINE // 81 PRs AUTHORED // 118 REVIEWS // READY FOR ADVANCED AI INITIATIVES ]
-```
+  <img src="assets/system-status.svg" alt="Live System Telemetry" width="100%"/>
+</div>
 
 <sub>© Umesh Patel · AI & ML Systems Engineer · Open Source Contributor</sub>
 
