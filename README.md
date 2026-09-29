@@ -22,14 +22,18 @@
   &nbsp;
   <img src="https://img.shields.io/github/followers/UmeshCode1?style=for-the-badge&label=FOLLOWERS&color=00e5ff&logo=github&logoColor=white&labelColor=080e0c" alt="Followers"/>
   &nbsp;
-  <a href="https://github.com/UmeshCode1?tab=repositories">
-    <img src="https://img.shields.io/badge/PRs-81%20Authored-00ff88?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Pull Requests"/>
+  <a href="https://docs.github.com/en/integrations/concepts/github-developer-program">
+    <img src="https://img.shields.io/badge/GitHub-Developer%20Program%20Member-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="GitHub Developer Program Member"/>
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00e5ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
+  <a href="https://github.com/UmeshCode1?tab=repositories">
+    <img src="https://img.shields.io/badge/PRs-81%20Authored-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Pull Requests"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1">
-    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-00ff88?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-00e5ff?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
   </a>
 </div>
 
