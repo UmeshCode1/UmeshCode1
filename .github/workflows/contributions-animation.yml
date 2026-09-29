@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Contribution Animations
 
 on:
   schedule:
@@ -11,11 +11,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
-      
-      - uses: Platane/snk@v3
-        id: snake-gif
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         with:
           github_user_name: UmeshCode1
           outputs: |
@@ -23,7 +25,13 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg
             dist/github-contribution-grid-snake.gif
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Generate Pacman Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: UmeshCode1
+
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         if: success()
         with:
           target_branch: output
@@ -31,6 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Print completion message
+      - name: Completion message
         if: success()
-        run: echo "Snake animation successfully generated!"
+        run: echo "Snake and Pacman contribution animations generated successfully!"
