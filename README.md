@@ -26,14 +26,18 @@
     <img src="https://img.shields.io/badge/GitHub-Developer%20Program%20Member-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="GitHub Developer Program Member"/>
   </a>
   &nbsp;
-  <a href="https://github.com/UmeshCode1?tab=repositories">
-    <img src="https://img.shields.io/badge/PRs-81%20Authored-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Pull Requests"/>
+  <a href="https://github.com/AIMLCLUBOCT">
+    <img src="https://img.shields.io/badge/AIML%20Club%20OCT-Vice%20President-FF6B6B?style=for-the-badge&logo=robot&logoColor=white&labelColor=080e0c" alt="Vice President AIML Club OCT"/>
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Reviews-118%20Conducted-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
+  <a href="https://github.com/UmeshCode1?tab=repositories">
+    <img src="https://img.shields.io/badge/PRs-81%2B%20Authored-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Pull Requests"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Reviews-120%2B%20Conducted-00ff88?style=for-the-badge&logo=github&logoColor=white&labelColor=080e0c" alt="Code Reviews"/>
   &nbsp;
   <a href="https://github.com/UmeshCode1">
-    <img src="https://img.shields.io/badge/Open%20Source-Verified%20Impact-00e5ff?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/Contributions-1%2C995%2B%20Annual-00e5ff?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=080e0c" alt="Contributions"/>
   </a>
 </div>
 
@@ -67,15 +71,20 @@
   <img src="assets/upstream-impact-bento.svg" width="100%" alt="Upstream Open Source Impact and Verified Contributions"/>
 </div>
 
-<details>
+<details open>
 <summary><b>🔗 Direct Upstream PR &amp; Audit Reference Links</b></summary>
 <br/>
 
+- 🤖 **AIML Club OCT** — [Vice President &amp; System Architect](https://github.com/AIMLCLUBOCT) : Core leadership, community engineering, and open-source curriculum architecture across 7 core club repositories.
+- 🟢 **Public APIs** — [`public-apis#7607`](https://github.com/public-apis/public-apis/pull/7607) : Added Mistral AI API specification *(Merged to Main)*
+- 🟢 **Public APIs** — [`public-apis#7608`](https://github.com/public-apis/public-apis/pull/7608) : Added Cohere API specification *(Merged to Main)*
+- 🟢 **Public APIs** — [`public-apis#7609`](https://github.com/public-apis/public-apis/pull/7609) : Added Together AI API specification *(Merged to Main)*
+- 🟢 **Public APIs** — [`public-apis#7610`](https://github.com/public-apis/public-apis/pull/7610) : Added Replicate API specification *(Merged to Main)*
+- 🟢 **GitHub** — [`github/gitignore#4922`](https://github.com/github/gitignore/pull/4922) : Standardized AI Agent (`tmpclaude-*` &amp; `.gemini/scratch/`) ignores *(Approved)*
 - 🟢 **GitHub** — [`github/docs#46118`](https://github.com/github/docs/pull/46118) : Documented async profile achievement batch queue latency window *(CI Passed)*
 - 🟢 **Microsoft** — [`microsoft/api-guidelines#596`](https://github.com/microsoft/api-guidelines/pull/596) : REST API guideline topology validation &amp; spec cross-referencing *(CLA Passed)*
 - 🟣 **OpenMind** — [`OpenMind/OM1#2694`](https://github.com/OpenMind/OM1/pull/2694) : Robot Hardware Abstraction Layer (HAL) sensor bus interfaces *(Merged to Main)*
 - 🟢 **Google** — [`googleapis/mcp-toolbox#4084`](https://github.com/googleapis/mcp-toolbox/issues/4084) : Model Context Protocol tool schema parsing &amp; integration audit *(Upstream Triage)*
-- 🟢 **Public APIs** — [`public-apis/public-apis#7580`](https://github.com/public-apis/public-apis/pull/7580) : Standardized Model Context Protocol (MCP) server registry *(Validated)*
 
 </details>
 
@@ -88,14 +97,15 @@
   <img src="assets/project-matrix.svg" width="100%" alt="Flagship Systems and Research Matrix"/>
 </div>
 
-<details>
+<details open>
 <summary><b>🚀 Explore Featured Repositories</b></summary>
 <br/>
 
+- 🤖 **AIML Club Ecosystem** — [`AIMLCLUBOCT`](https://github.com/AIMLCLUBOCT) : Official AI &amp; Machine Learning Club of Oriental College of Technology (OCT), Bhopal — student-led open-source hub, workshops, and AI engineering.
+- ⚡ **Automated Review Engine** — [`lets-connect`](https://github.com/UmeshCode1/lets-connect) : Turnkey GitHub Action &amp; Claude AI PR Reviewer for tracking repository contributions, commit trailers, and achievement milestones.
 - 🧠 **Computer Vision** — [`hand-gesture-occlusion-benchmark`](https://github.com/UmeshCode1/hand-gesture-occlusion-benchmark) : MediaPipe landmark tracking &amp; synthetic occlusion testing under 0%–60% noise.
-- ⚡ **Autonomous Agents** — [`public-apis`](https://github.com/UmeshCode1/public-apis) : Standardized Model Context Protocol (MCP) server registry &amp; schema parser.
-- 🚍 **Fleet Telematics** — [`schoolbus`](https://github.com/UmeshCode1/schoolbus) : Real-time GPS coordinate streaming, fleet tracking &amp; automated notification platform.
-- 🏆 **Full-Stack Platform** — [`GDGoist-ATS-Leaderboard`](https://github.com/UmeshCode1/GDGoist-ATS-Leaderboard) : Algorithmic student evaluation &amp; dynamic competitive ranking system.
+- 🔬 **Deep Learning Research** — [`cnn-optimization-benchmark`](https://github.com/UmeshCode1/cnn-optimization-benchmark) : Scientific research workstation benchmarking metaheuristic optimization algorithms on deep CNN compression.
+- 🏆 **Employability AI** — [`GDGoist-ATS-Leaderboard`](https://github.com/UmeshCode1/GDGoist-ATS-Leaderboard) : Algorithmic student evaluation &amp; dynamic competitive ranking system.
 
 </details>
 
@@ -188,7 +198,7 @@
 </a>
 &nbsp;
 <a href="https://github.com/UmeshCode1?tab=repositories" target="_blank">
-  <img src="https://img.shields.io/badge/Catalog-87%20Repositories-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/Catalog-94%2B%20Repositories-00e5ff?style=for-the-badge&logo=git&logoColor=white&labelColor=080e0c" alt="Repositories"/>
 </a>
 
 </div>
@@ -217,5 +227,5 @@
 <br/>
 
 <div align="center">
-  <sub><code>[ SYSTEM STATUS : ONLINE 24/7 ] ✦ [ 81 PRs AUTHORED ] ✦ [ 118 REVIEWS ] ✦ [ RESEARCH &amp; AGENTIC SYSTEMS ]</code></sub>
-</div> 
+  <sub><code>[ SYSTEM STATUS : ONLINE 24/7 ] ✦ [ 81+ PRs AUTHORED ] ✦ [ 120+ REVIEWS ] ✦ [ RESEARCH &amp; AGENTIC SYSTEMS ]</code></sub>
+</div>
